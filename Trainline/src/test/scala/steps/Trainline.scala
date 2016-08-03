@@ -9,6 +9,7 @@ import org.scalatest.selenium.WebBrowser._
 import org.scalatest.time.{Seconds, Span}
 import org.scalatest.{BeforeAndAfter, FeatureSpec, GivenWhenThen}
 import pagefactory.Homepage
+import utils.InstanceCarryOver
 
 /**
   * Created by Stephen.Kam on 03/08/2016.
