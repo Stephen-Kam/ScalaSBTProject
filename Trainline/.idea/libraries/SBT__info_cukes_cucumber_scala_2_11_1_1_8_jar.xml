@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: info.cukes:cucumber-scala_2.11:1.1.8:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/info.cukes/cucumber-scala_2.11/jars/cucumber-scala_2.11-1.1.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/info.cukes/cucumber-scala_2.11/srcs/cucumber-scala_2.11-1.1.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
