@@ -17,13 +17,6 @@ class Trainline extends Support {
       if (tail.isEmpty) println("End of List") else iterateThroughDates(tail)
     }
 
-  def getAllElements(someElements: List[Element]): Unit = {
-    val head = someElements.head
-    val tail = someElements.tail
-    println(head.underlying.getAttribute("class"))
-    if (tail.isEmpty) println("End of List") else getAllElements(tail)
-  }
-
   feature("As a user I want to be able to use the trainline website") {
 
     scenario("Enter in two stations and press submit") {
@@ -90,10 +83,7 @@ class Trainline extends Support {
       click on "submitButton"
 
       Then("the 'tomorrow' and 'next day' date displays")
-      //homepage.assertTodayDate()
-      ///////
-      val someElements = findAll(xpath(".//*[@id='tickets']/div/div[1]/table/thead/tr[1]/th[2]/*")).toList
-      getAllElements(someElements)
+      homepage.assertTodayDate()
     }
   }
 }

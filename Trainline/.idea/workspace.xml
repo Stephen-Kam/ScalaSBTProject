@@ -36,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Trainline.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Trainline.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Trainline.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+            <state relative-caret-position="215">
+              <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
               <folding>
                 <element signature="e#15#69#0" expanded="true" />
               </folding>
@@ -48,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vzcsxcx.sc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vzcsxcx.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/steps/vzcsxcx.sc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="218">
@@ -141,9 +141,9 @@
         <option value="$PROJECT_DIR$/src/test/scala/pagefactory/TimetablePage.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/steps/exercise2.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/steps/Trainline.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/steps/Dog.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/steps/vzcsxcx.sc" />
+        <option value="$PROJECT_DIR$/src/test/scala/steps/Trainline.scala" />
       </list>
     </option>
   </component>
@@ -749,9 +749,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ticket_search_with_'today'_and_'next_day' - 2016.08.12 at 12h 11m 19s.xml">
-      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ticket_search_with_'today'_and_'next_day' - 2016.08.12 at 12h 12m 34s.xml">
       <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -777,6 +774,9 @@
       <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ticket_search_with_'today'_and_'next_day' - 2016.08.12 at 12h 23m 58s.xml">
+      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ticket_search_with_'today'_and_'next_day' - 2016.08.12 at 14h 07m 37s.xml">
       <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
@@ -1151,16 +1151,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/steps/package.scala" />
-    <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Trainline.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-          <folding>
-            <element signature="e#15#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Dog.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1182,6 +1172,16 @@
         <state relative-caret-position="218">
           <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Trainline.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+          <folding>
+            <element signature="e#15#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
