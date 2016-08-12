@@ -51,6 +51,8 @@ class Trainline extends Support {
 
       Then("The label will be correct")
       homepage.isStationFinderLabelCorrect(driver)
+
+      info("////////////////END OF TEST/////////////////////////")
     }
 
     scenario("Display all  of the dates from the calendar") {
