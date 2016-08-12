@@ -1,6 +1,6 @@
 package steps
 
-import org.openqa.selenium.{WebDriver, WebElement}
+import org.openqa.selenium.{By, WebDriver, WebElement}
 import org.scalatest.time.{Seconds, Span}
 import utils.Support
 
@@ -13,9 +13,16 @@ class Trainline extends Support {
     def iterateThroughDates(dates: List[Element]): Unit = {
       val head = dates.head
       val tail = dates.tail
-      println(head.underlying.getText)
+      println(head.underlying.findElement(By.className("matrix")))
       if (tail.isEmpty) println("End of List") else iterateThroughDates(tail)
     }
+
+  def getAllElements(someElements: List[Element]): Unit = {
+    val head = someElements.head
+    val tail = someElements.tail
+    println(head.underlying.getAttribute("class"))
+    if (tail.isEmpty) println("End of List") else getAllElements(tail)
+  }
 
   feature("As a user I want to be able to use the trainline website") {
 
@@ -83,7 +90,10 @@ class Trainline extends Support {
       click on "submitButton"
 
       Then("the 'tomorrow' and 'next day' date displays")
-      homepage.assertTodayDate()
+      //homepage.assertTodayDate()
+      ///////
+      val someElements = findAll(xpath(".//*[@id='tickets']/div/div[1]/table/thead/tr[1]/th[2]/*")).toList
+      getAllElements(someElements)
     }
   }
 }

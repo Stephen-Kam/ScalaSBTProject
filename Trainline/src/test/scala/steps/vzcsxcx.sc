@@ -53,3 +53,17 @@ x.denom
 x.sub(y).sub(z)
 x.neg
 
+class Dog {
+
+  override def toString: String = {
+    "A dog"
+  }
+}
+
+val d = new Dog
+println(d.toString)
+
+
+
+
+
