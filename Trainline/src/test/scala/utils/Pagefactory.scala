@@ -6,7 +6,7 @@ import pagefactory.{Homepage, TimetablePage}
 /**
   * Created by Stephen.Kam on 11/08/2016.
   */
-trait Pagefactory extends BrowserInitialisation{
+trait Pagefactory extends BrowserInitialisation {
 
   /*
   THIS PAGE INITIALISES ALL OF THE RELEVANT PAGE FACTORIES

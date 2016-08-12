@@ -12,18 +12,15 @@ class TimetablePage {
   ///////////////START OF VARIABLES////////////////
   /////////////////////////////////////////////////
 
-  @FindBy(xpath=".//*[@id='timetable']/div[2]")
+  @FindBy(xpath = ".//*[@id='timetable']/div[2]")
   protected var timetableConfirm: WebElement = _
-
-
 
 
   /////////////////////////////////////////////////
   ///////////////START OF FUNCTIONS////////////////
   /////////////////////////////////////////////////
 
-  def isTimetableVisible: Boolean = {
-    timetableConfirm.isDisplayed
-  }
+  def isTimetableVisible: Unit =
+    assert(timetableConfirm.isDisplayed, "Timetable is not visible")
 
 }

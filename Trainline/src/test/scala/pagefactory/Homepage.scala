@@ -7,7 +7,6 @@ import org.openqa.selenium.{WebDriver, WebElement}
 import org.openqa.selenium.support.FindBy
 import org.openqa.selenium.support.ui.{ExpectedConditions, WebDriverWait}
 import org.scalatest.selenium.WebBrowser._
-import utils.Pagefactory
 
 
 /**
@@ -25,9 +24,6 @@ class Homepage  {
   @FindBy(id="destinationStation")
   protected var destinationStation: WebElement = _
 
-  @FindBy(id="stationFinder")
-  protected var stationFinder: WebElement = _
-
   @FindBy(xpath=".//*[@id='stationFinderOverlay']/div[2]/div/div[1]/form/div/label")
   protected var stationFinderLabel: WebElement = _
 
@@ -43,20 +39,25 @@ class Homepage  {
   @FindBy(id="viaAvoidStation")
   protected var viaAvoidStation: WebElement = _
 
-  @FindBy(id="submitButton")
-  protected var submitButton: WebElement = _
-
   @FindBy(xpath=".//*[@id='extendedSearchForm']/div[2]/div[1]/div/div[1]/button[2]")
   protected var tomorrowButton: WebElement = _
 
   @FindBy(xpath=".//*[@id='extendedSearchForm']/div[2]/div[2]/div/div[1]/button[2]")
   protected var nextdayButton: WebElement = _
 
-  @FindBy(id="outDate")
-  protected var outDate: WebElement = _
+  @FindBy(xpath=".//*[@id='extendedSearchForm']/div[3]/div[1]/div/button")
+  protected var railcardButton: WebElement = _
+
+  @FindBy(xpath=".//*[@id='extendedSearchForm']/div[3]/div[1]/div/div/button")
+  protected var railcardButtonDone: WebElement = _
 
   @FindBy(xpath=".//*[@id='tickets']/div/div[1]/table/thead/tr[1]/th[2]/div/h3")
   protected var timetableOutdate: WebElement = _
+
+  @FindBy(xpath=".//*[@id='timetable']/div[1]")
+  protected var timetableHeader: WebElement = _
+
+  protected var randomnumber = ""
 
   /////////////////////////////////////////////////
   ///////////////START OF FUNCTIONS////////////////
@@ -72,15 +73,15 @@ class Homepage  {
     if (driver.getTitle contains "500 Internal Server Error") driver.navigate().refresh()
   }
 
-  def clickOnStationFinder(): Unit = {
-    stationFinder.click()
+  def clickOnStationFinder(implicit driver: WebDriver): Unit = {
+    click on "stationFinder"
   }
 
-  def isStationFinderLabelCorrect(driver: WebDriver): Boolean = {
+  def isStationFinderLabelCorrect(driver: WebDriver): Unit = {
     val wait: WebDriverWait = new WebDriverWait(driver, 10)
     wait.until(ExpectedConditions.visibilityOf(stationFinderLabel))
     println(stationFinderLabel.getText) //debugging
-    stationFinderLabel.getText contentEquals "Find a station closest to"
+    assert(stationFinderLabel.getText contentEquals "Find a station closest to", "Station Finder label was incorrect")
   }
   def enterStations(origin: String, destination: String): Unit = {
     originStation.sendKeys(origin)
@@ -92,12 +93,12 @@ class Homepage  {
     nextdayButton.click()
   }
 
-  def clickOnOutDate(): Unit = {
-    click on outDate
+  def clickOnOutDate(implicit driver: WebDriver): Unit = {
+    click on "outDate"
   }
 
-  def clickSubmit(): Unit = {
-    click on submitButton
+  def clickSubmit(implicit driver: WebDriver): Unit = {
+    click on "submitButton"
   }
 
   def assertTodayDate(): Unit = {
@@ -105,7 +106,7 @@ class Homepage  {
     val my = monthYear.format(Calendar.getInstance().getTime)
     var tomorrowDate: String = ""
     val now = Calendar.getInstance()
-    val aDate = now.get(Calendar.DATE) + 1
+    val aDate = now.get(Calendar.DATE) + 1 //Get tomorrow's date
     aDate match {
       case 1 | 21 | 31 => tomorrowDate = aDate + "st" + my
       case 2 | 22 => tomorrowDate = aDate + "nd " + my
@@ -115,5 +116,30 @@ class Homepage  {
     println("Tomorrows's date is: " + tomorrowDate) //debugging
     println("OutDate is: " + timetableOutdate.getText) //debugging
     assert(timetableOutdate.getText contains tomorrowDate) //assert to ensure the result display the correct date
+  }
+
+  def iterateThroughDates(implicit driver: WebDriver): Unit = {
+    def iterateThroughTheDates(dates: List[Element]): Unit = {
+      val head = dates.head
+      val tail = dates.tail
+      println(head.underlying.getText)
+      if (tail.isEmpty) println("End of List") else iterateThroughTheDates(tail)
+    }
+    click on "outDate"
+    val calendars = findAll(xpath(".//*[@id='ui-datepicker-div']/*")).toList
+    iterateThroughTheDates(calendars)
+  }
+
+  def selectRandomNoOfAdults(implicit driver: WebDriver): Unit = {
+    railcardButton.click()
+    val rand = new scala.util.Random
+    val range = 1 to 9
+    randomnumber = range(rand.nextInt(range length)).toString
+    singleSel("adults").value = randomnumber
+    click on railcardButtonDone
+  }
+
+  def isNoOfAdultsCorrect: Unit = {
+    assert(timetableHeader.getText contains randomnumber, "The number of adults did not match")
   }
 }

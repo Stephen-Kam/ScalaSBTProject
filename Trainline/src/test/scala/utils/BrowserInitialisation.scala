@@ -4,8 +4,8 @@ import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.remote.DesiredCapabilities
-import org.openqa.selenium.support.PageFactory
-import pagefactory.Homepage
+
+
 
 /**
   * Created by Stephen.Kam on 03/08/2016.

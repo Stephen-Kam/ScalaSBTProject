@@ -1,21 +1,11 @@
 package steps
 
-import org.openqa.selenium.{By, WebDriver, WebElement}
-import org.scalatest.time.{Seconds, Span}
 import utils.Support
 
 /**
   * Created by Stephen.Kam on 03/08/2016.
   */
 class Trainline extends Support {
-
-
-    def iterateThroughDates(dates: List[Element]): Unit = {
-      val head = dates.head
-      val tail = dates.tail
-      println(head.underlying.findElement(By.className("matrix")))
-      if (tail.isEmpty) println("End of List") else iterateThroughDates(tail)
-    }
 
   feature("As a user I want to be able to use the trainline website") {
 
@@ -26,11 +16,12 @@ class Trainline extends Support {
       homepage.enterStations("London", "Brighton")
 
       When("I click on the submit button")
-      homepage.clickSubmit()
+      homepage.clickSubmit
 
       Then("The timetable page will be present")
-      assert(timetablepage.isTimetableVisible)
+      timetablepage.isTimetableVisible
 
+      info("////////////////END OF TEST/////////////////////////")
     }
 
     scenario("Enter in two stations, press next day, press submit") {
@@ -43,10 +34,12 @@ class Trainline extends Support {
       homepage.clickTomorrowNextDay()
 
       When("I click on the submit button")
-      homepage.clickSubmit()
+      homepage.clickSubmit
 
       Then("The timetable page will be present")
-      assert(timetablepage.isTimetableVisible)
+      timetablepage.isTimetableVisible
+
+      info("////////////////END OF TEST/////////////////////////")
 
     }
 
@@ -54,20 +47,19 @@ class Trainline extends Support {
       Given("I am on the Trainline website")
 
       When("I click on the station finder button")
-      homepage.clickOnStationFinder()
+      homepage.clickOnStationFinder
 
       Then("The label will be correct")
-      assert(homepage.isStationFinderLabelCorrect(driver))
-
+      homepage.isStationFinderLabelCorrect(driver)
     }
 
     scenario("Display all  of the dates from the calendar") {
       Given("I am on the Trainline website")
 
-      When("I click on the out date")
-      homepage.clickOnOutDate()
-      val calendars = findAll(xpath(".//*[@id='ui-datepicker-div']/*")).toList
-      iterateThroughDates(calendars)
+      When("I click on the out date then all of the dates will  be printed")
+      homepage.iterateThroughDates
+
+      info("////////////////END OF TEST/////////////////////////")
     }
 
     scenario("Ticket search with 'today' and 'next day'") {
@@ -84,6 +76,26 @@ class Trainline extends Support {
 
       Then("the 'tomorrow' and 'next day' date displays")
       homepage.assertTodayDate()
+
+      info("////////////////END OF TEST/////////////////////////")
+    }
+
+    scenario("Select a random number of adults and check that the timetable page accurately reflects this") {
+      Given("I'm on The Train Line main page")
+
+      When("I enter the 'from' and 'to' locations")
+      homepage.enterStations("London", "Brighton")
+
+      And("I select a random number of adults")
+      homepage.selectRandomNoOfAdults
+
+      When("I press the submit button")
+      click on "submitButton"
+
+      Then("The timetable page will show the correct number of adults")
+      homepage.isNoOfAdultsCorrect
+
+      info("////////////////END OF TEST/////////////////////////")
     }
   }
 }
