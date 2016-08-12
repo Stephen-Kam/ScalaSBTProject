@@ -1,0 +1,86 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(C:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(C:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(C:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(C:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to C:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.12:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 4cb310f5, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes;C:\Users\Stephen.Kam\.sbt\boot\scala-2.10.6\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	C:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\target\scala-2.10\classes[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:4: object openqa is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.openqa.selenium.{Keys, WebDriver}[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:5: object openqa is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.openqa.selenium.chrome.ChromeDriver[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:6: object openqa is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.openqa.selenium.support.PageFactory[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:7: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.selenium.WebBrowser[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:8: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.selenium.WebBrowser._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:9: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.time.{Seconds, Span}[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:10: object scalatest is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalatest.{BeforeAndAfter, FeatureSpec, GivenWhenThen}[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:11: not found: object pagefactory[0m
+[0m[[31merror[0m] [0mimport pagefactory.Homepage[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:12: not found: object utils[0m
+[0m[[31merror[0m] [0mimport utils.InstanceCarryOver[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:17: not found: type FeatureSpec[0m
+[0m[[31merror[0m] [0mclass Trainline extends FeatureSpec with GivenWhenThen with BeforeAndAfter with WebBrowser{[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:17: not found: type GivenWhenThen[0m
+[0m[[31merror[0m] [0mclass Trainline extends FeatureSpec with GivenWhenThen with BeforeAndAfter with WebBrowser{[0m
+[0m[[31merror[0m] [0m                                         ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:17: not found: type BeforeAndAfter[0m
+[0m[[31merror[0m] [0mclass Trainline extends FeatureSpec with GivenWhenThen with BeforeAndAfter with WebBrowser{[0m
+[0m[[31merror[0m] [0m                                                            ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:17: not found: type WebBrowser[0m
+[0m[[31merror[0m] [0mclass Trainline extends FeatureSpec with GivenWhenThen with BeforeAndAfter with WebBrowser{[0m
+[0m[[31merror[0m] [0m                                                                                ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:20: not found: type WebDriver[0m
+[0m[[31merror[0m] [0m  implicit var driver: WebDriver = new ChromeDriver()[0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:20: not found: type ChromeDriver[0m
+[0m[[31merror[0m] [0m  implicit var driver: WebDriver = new ChromeDriver()[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:21: not found: value PageFactory[0m
+[0m[[31merror[0m] [0m  var homepage = PageFactory.initElements(driver, classOf[Homepage])[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:23: not found: value before[0m
+[0m[[31merror[0m] [0m  before{[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:27: not found: value after[0m
+[0m[[31merror[0m] [0m  after{[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0mC:\CapGemini\Git\ScalaSBTProject\Trainline\src\test\scala\steps\Trainline.scala:31: not found: value feature[0m
+[0m[[31merror[0m] [0m  feature("As a user") {[0m
+[0m[[31merror[0m] [0m  ^[0m
+[0m[[31merror[0m] [0m19 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

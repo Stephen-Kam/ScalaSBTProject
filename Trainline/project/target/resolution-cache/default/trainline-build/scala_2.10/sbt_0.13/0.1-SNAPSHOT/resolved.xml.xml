@@ -4,7 +4,7 @@
 		module="trainline-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160803145333"
+		publication="20160809154334"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
