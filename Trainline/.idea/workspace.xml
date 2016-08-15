@@ -36,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Trainline.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Trainline.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Trainline.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+            <state relative-caret-position="300">
+              <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
               <folding>
                 <element signature="e#15#52#0" expanded="true" />
               </folding>
@@ -61,11 +61,21 @@
       <file leaf-file-name="Homepage.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="186" column="43" selection-start-line="186" selection-start-column="43" selection-end-line="186" selection-end-column="43" />
+            <state relative-caret-position="289">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
               <folding>
                 <element signature="e#21#54#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrowserInitialisation.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BrowserInitialisation.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/utils/BrowserInitialisation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
               </folding>
@@ -144,7 +154,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/scala/steps/Examples.sc" />
         <option value="$PROJECT_DIR$/src/test/scala/steps/holdidng.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/InstanceCarryOver.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/HomepageInitialisation.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/steps/exercise2.scala" />
@@ -155,10 +164,11 @@
         <option value="$PROJECT_DIR$/src/test/scala/pagefactory/TimetablePage.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/TestTags.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/steps/Trainline.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/Support.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/steps/NegativeTrainline.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/Tags.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/test/scala/steps/Trainline.scala" />
       </list>
     </option>
   </component>
@@ -358,7 +368,7 @@
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="RunManager" selected="ScalaTest.NegativeTrainline">
+  <component name="RunManager" selected="ScalaTest.Trainline">
     <configuration default="false" name="Trainline" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="trainline" />
@@ -731,16 +741,16 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" />
-        <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Trainline" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Trainline" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" />
+        <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1471250698182" />
+    <option name="lastUpdateTimestamp" value="1471259193119" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -786,9 +796,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NegativeTrainline - 2016.08.15 at 10h 10m 04s.xml">
-      <configuration name="NegativeTrainline" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="NegativeTrainline - 2016.08.15 at 11h 47m 39s.xml">
       <configuration name="NegativeTrainline" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -815,6 +822,9 @@
     </history-entry>
     <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 11h 05m 20s.xml">
       <configuration name="NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Trainline - 2016.08.15 at 12h 07m 29s.xml">
+      <configuration name="Trainline" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1145,13 +1155,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/utils/HomepageInitialisation.scala" />
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/steps/package.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Dog.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/steps/exercise2.scala" />
@@ -1189,23 +1192,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Trainline.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Tags.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/BrowserInitialisation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding>
-            <element signature="e#15#52#0" expanded="true" />
+            <element signature="e#15#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="186" column="43" selection-start-line="186" selection-start-column="43" selection-end-line="186" selection-end-column="43" />
-          <folding>
-            <element signature="e#21#54#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1217,20 +1226,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Tags.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="e#21#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/BrowserInitialisation.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Trainline.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
           <folding>
-            <element signature="e#15#51#0" expanded="true" />
+            <element signature="e#15#52#0" expanded="true" />
           </folding>
         </state>
       </provider>

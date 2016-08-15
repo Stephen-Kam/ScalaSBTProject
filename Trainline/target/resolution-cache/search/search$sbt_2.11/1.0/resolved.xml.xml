@@ -4,7 +4,7 @@
 		module="search$sbt_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160815094457"
+		publication="20160815120629"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

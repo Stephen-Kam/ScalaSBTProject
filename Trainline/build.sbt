@@ -12,5 +12,6 @@ libraryDependencies ++= Seq(
   "info.cukes" % "cucumber-picocontainer" % "1.1.8",
   "junit" % "junit" % "4.11" % "test",
   "com.novocode" % "junit-interface" % "0.10" % "test",
-  "org.seleniumhq.selenium" % "selenium-java" % "3.0.0-beta2")
+  "org.seleniumhq.selenium" % "selenium-java" % "3.0.0-beta2",
+  "com.google.code.findbugs" % "jsr305" % "1.3.+")
     

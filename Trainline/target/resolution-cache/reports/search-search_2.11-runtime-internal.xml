@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160811135442"/>
+		date="20160815120628"/>
 	<dependencies>
 		<module organisation="org.seleniumhq.selenium" name="selenium-java">
 			<revision name="3.0.0-beta2" status="release" pubdate="20160803060239" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="13">
@@ -399,6 +399,18 @@
 				<artifacts>
 					<artifact name="guava" type="bundle" ext="jar" status="no" details="" size="2308517" time="0" location="C:\Users\Stephen.Kam\.ivy2\cache\com.google.guava\guava\bundles\guava-19.0.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/guava/guava/19.0/guava-19.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="1.3.9" status="release" pubdate="20090824232822" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="46">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2549" time="0" location="C:\Users\Stephen.Kam\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-1.3.9.xml" searched="true" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom"/>
+				<caller organisation="search" name="search_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.3.+" rev-constraint-default="1.3.+" rev-constraint-dynamic="1.3.+" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jsr305" type="jar" ext="jar" status="no" details="" size="33015" time="0" location="C:\Users\Stephen.Kam\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-1.3.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

@@ -8,7 +8,7 @@
 [debug] == resolving dependencies for search#search$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1df0647a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72795b67
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -17,7 +17,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->default(compile)]
 [info] Resolving org.scalactic#scalactic_2.11;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6890191d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60f6651d
 [debug] sbt-chain: module revision found in cache: org.scalactic#scalactic_2.11;3.0.0
 [debug] 	found org.scalactic#scalactic_2.11;3.0.0 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->runtime]
@@ -25,7 +25,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scalactic#scalactic_2.11;3.0.0 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41eacc48
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42d6666
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.8
 [debug] 	found org.scala-lang#scala-reflect;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-reflect;2.11.8
@@ -34,7 +34,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.8 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-scala_2.11;1.1.8 [compile->default(compile)]
 [info] Resolving info.cukes#cucumber-scala_2.11;1.1.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2195920e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62a791fe
 [debug] sbt-chain: module revision found in cache: info.cukes#cucumber-scala_2.11;1.1.8
 [debug] 	found info.cukes#cucumber-scala_2.11;1.1.8 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-scala_2.11;1.1.8 [compile->runtime]
@@ -42,7 +42,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-scala_2.11;1.1.8 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-core;1.1.8 [compile->default(compile)]
 [info] Resolving info.cukes#cucumber-core;1.1.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@563e0e7c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c67f90c
 [debug] sbt-chain: module revision found in cache: info.cukes#cucumber-core;1.1.8
 [debug] 	found info.cukes#cucumber-core;1.1.8 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-core;1.1.8 [compile->runtime]
@@ -50,7 +50,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-core;1.1.8 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-html;0.2.3 [compile->default(compile)]
 [info] Resolving info.cukes#cucumber-html;0.2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@45f97d4d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@357e2829
 [debug] sbt-chain: module revision found in cache: info.cukes#cucumber-html;0.2.3
 [debug] 	found info.cukes#cucumber-html;0.2.3 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-html;0.2.3 [compile->runtime]
@@ -58,7 +58,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-html;0.2.3 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-jvm-deps;1.0.3 [compile->default(compile)]
 [info] Resolving info.cukes#cucumber-jvm-deps;1.0.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f1a022b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@504835fa
 [debug] sbt-chain: module revision found in cache: info.cukes#cucumber-jvm-deps;1.0.3
 [debug] 	found info.cukes#cucumber-jvm-deps;1.0.3 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-jvm-deps;1.0.3 [compile->runtime]
@@ -66,7 +66,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-jvm-deps;1.0.3 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#gherkin;2.12.2 [compile->default(compile)]
 [info] Resolving info.cukes#gherkin;2.12.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6dca2426
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3cf5d538
 [debug] sbt-chain: module revision found in cache: info.cukes#gherkin;2.12.2
 [debug] 	found info.cukes#gherkin;2.12.2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#gherkin;2.12.2 [compile->runtime]
@@ -74,7 +74,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#gherkin;2.12.2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-junit;1.1.8 [compile->default(compile)]
 [info] Resolving info.cukes#cucumber-junit;1.1.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1641ccb3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6eec44e8
 [debug] sbt-chain: module revision found in cache: info.cukes#cucumber-junit;1.1.8
 [debug] 	found info.cukes#cucumber-junit;1.1.8 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-junit;1.1.8 [compile->runtime]
@@ -82,7 +82,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-junit;1.1.8 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [compile->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1f726ab8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@700baca5
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [compile->runtime]
@@ -90,7 +90,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.hamcrest#hamcrest-core;1.3 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-picocontainer;1.1.8 [compile->default(compile)]
 [info] Resolving info.cukes#cucumber-picocontainer;1.1.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d3d8c59
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51b34d9b
 [debug] sbt-chain: module revision found in cache: info.cukes#cucumber-picocontainer;1.1.8
 [debug] 	found info.cukes#cucumber-picocontainer;1.1.8 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-picocontainer;1.1.8 [compile->runtime]
@@ -98,7 +98,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-picocontainer;1.1.8 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-java;1.1.8 [compile->default(compile)]
 [info] Resolving info.cukes#cucumber-java;1.1.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ffa2c05
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3136cc2b
 [debug] sbt-chain: module revision found in cache: info.cukes#cucumber-java;1.1.8
 [debug] 	found info.cukes#cucumber-java;1.1.8 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-java;1.1.8 [compile->runtime]
@@ -106,7 +106,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->info.cukes#cucumber-java;1.1.8 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.picocontainer#picocontainer;2.14.3 [compile->default(compile)]
 [info] Resolving org.picocontainer#picocontainer;2.14.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14598b58
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3616295
 [debug] sbt-chain: module revision found in cache: org.picocontainer#picocontainer;2.14.3
 [debug] 	found org.picocontainer#picocontainer;2.14.3 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.picocontainer#picocontainer;2.14.3 [compile->runtime]
@@ -114,7 +114,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.picocontainer#picocontainer;2.14.3 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-java;3.0.0-beta2 [compile->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-java;3.0.0-beta2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bf5ff2e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@315deb96
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-java;3.0.0-beta2
 [debug] 	found org.seleniumhq.selenium#selenium-java;3.0.0-beta2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-java;3.0.0-beta2 [compile->runtime]
@@ -122,7 +122,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-java;3.0.0-beta2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;3.0.0-beta2 [compile->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-chrome-driver;3.0.0-beta2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e8dc19
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58b83876
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;3.0.0-beta2
 [debug] 	found org.seleniumhq.selenium#selenium-chrome-driver;3.0.0-beta2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;3.0.0-beta2 [compile->runtime]
@@ -130,7 +130,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-chrome-driver;3.0.0-beta2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;3.0.0-beta2 [compile->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-api;3.0.0-beta2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ad916e5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59427dd9
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;3.0.0-beta2
 [debug] 	found org.seleniumhq.selenium#selenium-api;3.0.0-beta2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;3.0.0-beta2 [compile->runtime]
@@ -138,7 +138,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-api;3.0.0-beta2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;3.0.0-beta2 [compile->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-remote-driver;3.0.0-beta2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@55030b61
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c702809
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;3.0.0-beta2
 [debug] 	found org.seleniumhq.selenium#selenium-remote-driver;3.0.0-beta2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;3.0.0-beta2 [compile->runtime]
@@ -146,7 +146,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-remote-driver;3.0.0-beta2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->cglib#cglib-nodep;3.2.4 [compile->default(compile)]
 [info] Resolving cglib#cglib-nodep;3.2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d4e63a0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18da1144
 [debug] sbt-chain: module revision found in cache: cglib#cglib-nodep;3.2.4
 [debug] 	found cglib#cglib-nodep;3.2.4 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->cglib#cglib-nodep;3.2.4 [compile->runtime]
@@ -154,7 +154,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->cglib#cglib-nodep;3.2.4 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.apache.commons#commons-exec;1.3 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-exec;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49bcf275
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@160cc864
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.3
 [debug] 	found org.apache.commons#commons-exec;1.3 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.apache.commons#commons-exec;1.3 [compile->runtime]
@@ -162,7 +162,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.apache.commons#commons-exec;1.3 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->commons-logging#commons-logging;1.2 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62b5b089
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c09ea57
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.2
 [debug] 	found commons-logging#commons-logging;1.2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->commons-logging#commons-logging;1.2 [compile->runtime]
@@ -170,7 +170,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->commons-logging#commons-logging;1.2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.gson#gson;2.3.1 [compile->default(compile)]
 [info] Resolving com.google.code.gson#gson;2.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5792636a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b7bd62a
 [debug] sbt-chain: module revision found in cache: com.google.code.gson#gson;2.3.1
 [debug] 	found com.google.code.gson#gson;2.3.1 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.gson#gson;2.3.1 [compile->runtime]
@@ -178,7 +178,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.gson#gson;2.3.1 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.guava#guava;19.0 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;19.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@464e6004
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3047a988
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;19.0
 [debug] 	found com.google.guava#guava;19.0 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.guava#guava;19.0 [compile->runtime]
@@ -186,7 +186,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.guava#guava;19.0 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.5.2 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpclient;4.5.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@19f26f47
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d02e2ef
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpclient;4.5.2
 [debug] 	found org.apache.httpcomponents#httpclient;4.5.2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.5.2 [compile->runtime]
@@ -194,7 +194,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.apache.httpcomponents#httpclient;4.5.2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.4.4 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpcore;4.4.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ed965ca
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e42475e
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpcore;4.4.4
 [debug] 	found org.apache.httpcomponents#httpcore;4.4.4 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.4.4 [compile->runtime]
@@ -202,7 +202,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.apache.httpcomponents#httpcore;4.4.4 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->commons-codec#commons-codec;1.9 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@42c903c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@41cf5cde
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.9
 [debug] 	found commons-codec#commons-codec;1.9 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->commons-codec#commons-codec;1.9 [compile->runtime]
@@ -210,7 +210,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->commons-codec#commons-codec;1.9 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.5.2 [compile->default(compile)]
 [info] Resolving org.apache.httpcomponents#httpmime;4.5.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33cd6fa6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bb3b43e
 [debug] sbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.5.2
 [debug] 	found org.apache.httpcomponents#httpmime;4.5.2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.5.2 [compile->runtime]
@@ -218,7 +218,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.apache.httpcomponents#httpmime;4.5.2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->net.java.dev.jna#jna;4.1.0 [compile->default(compile)]
 [info] Resolving net.java.dev.jna#jna;4.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ec790d3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2dcadc42
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna;4.1.0
 [debug] 	found net.java.dev.jna#jna;4.1.0 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->net.java.dev.jna#jna;4.1.0 [compile->runtime]
@@ -226,7 +226,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->net.java.dev.jna#jna;4.1.0 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->net.java.dev.jna#jna-platform;4.1.0 [compile->default(compile)]
 [info] Resolving net.java.dev.jna#jna-platform;4.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21d656e8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47dc2046
 [debug] sbt-chain: module revision found in cache: net.java.dev.jna#jna-platform;4.1.0
 [debug] 	found net.java.dev.jna#jna-platform;4.1.0 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->net.java.dev.jna#jna-platform;4.1.0 [compile->runtime]
@@ -234,7 +234,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->net.java.dev.jna#jna-platform;4.1.0 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-edge-driver;3.0.0-beta2 [compile->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-edge-driver;3.0.0-beta2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c3e7c8f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@685cda3a
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-edge-driver;3.0.0-beta2
 [debug] 	found org.seleniumhq.selenium#selenium-edge-driver;3.0.0-beta2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-edge-driver;3.0.0-beta2 [compile->runtime]
@@ -242,7 +242,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-edge-driver;3.0.0-beta2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;3.0.0-beta2 [compile->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-firefox-driver;3.0.0-beta2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e4c00aa
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c7e1a94
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;3.0.0-beta2
 [debug] 	found org.seleniumhq.selenium#selenium-firefox-driver;3.0.0-beta2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;3.0.0-beta2 [compile->runtime]
@@ -250,7 +250,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-firefox-driver;3.0.0-beta2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;3.0.0-beta2 [compile->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-ie-driver;3.0.0-beta2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@171ff91c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48feed35
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;3.0.0-beta2
 [debug] 	found org.seleniumhq.selenium#selenium-ie-driver;3.0.0-beta2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;3.0.0-beta2 [compile->runtime]
@@ -258,7 +258,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-ie-driver;3.0.0-beta2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-opera-driver;3.0.0-beta2 [compile->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-opera-driver;3.0.0-beta2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25d3d827
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@281e155e
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-opera-driver;3.0.0-beta2
 [debug] 	found org.seleniumhq.selenium#selenium-opera-driver;3.0.0-beta2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-opera-driver;3.0.0-beta2 [compile->runtime]
@@ -266,7 +266,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-opera-driver;3.0.0-beta2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;3.0.0-beta2 [compile->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-safari-driver;3.0.0-beta2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@48585133
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3a700b7e
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;3.0.0-beta2
 [debug] 	found org.seleniumhq.selenium#selenium-safari-driver;3.0.0-beta2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;3.0.0-beta2 [compile->runtime]
@@ -274,7 +274,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-safari-driver;3.0.0-beta2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->io.netty#netty;3.5.7.Final [compile->default(compile)]
 [info] Resolving io.netty#netty;3.5.7.Final ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25773dd9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@569f88db
 [debug] sbt-chain: module revision found in cache: io.netty#netty;3.5.7.Final
 [debug] 	found io.netty#netty;3.5.7.Final in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->io.netty#netty;3.5.7.Final [compile->runtime]
@@ -282,7 +282,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->io.netty#netty;3.5.7.Final [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;3.0.0-beta2 [compile->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-support;3.0.0-beta2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7311cede
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fd824e0
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;3.0.0-beta2
 [debug] 	found org.seleniumhq.selenium#selenium-support;3.0.0-beta2 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;3.0.0-beta2 [compile->runtime]
@@ -290,7 +290,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-support;3.0.0-beta2 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.hamcrest#hamcrest-all;1.3 [compile->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-all;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@683d3d26
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@158da1e9
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-all;1.3
 [debug] 	found org.hamcrest#hamcrest-all;1.3 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.hamcrest#hamcrest-all;1.3 [compile->runtime]
@@ -298,7 +298,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.hamcrest#hamcrest-all;1.3 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->junit#junit;4.12 [compile->default(compile)]
 [info] Resolving junit#junit;4.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@20638647
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21b91823
 [debug] sbt-chain: module revision found in cache: junit#junit;4.12
 [debug] 	found junit#junit;4.12 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->junit#junit;4.12 [compile->runtime]
@@ -306,7 +306,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->junit#junit;4.12 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->com.github.detro.ghostdriver#phantomjsdriver;1.1.0 [compile->default(compile)]
 [info] Resolving com.github.detro.ghostdriver#phantomjsdriver;1.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1dca2281
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@178f2f30
 [debug] sbt-chain: module revision found in cache: com.github.detro.ghostdriver#phantomjsdriver;1.1.0
 [debug] 	found com.github.detro.ghostdriver#phantomjsdriver;1.1.0 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->com.github.detro.ghostdriver#phantomjsdriver;1.1.0 [compile->runtime]
@@ -314,7 +314,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->com.github.detro.ghostdriver#phantomjsdriver;1.1.0 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-server;2.39.0 [compile->default(compile)]
 [info] Resolving org.seleniumhq.selenium#selenium-server;2.39.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@798721e4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@776ff4e5
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-server;2.39.0
 [debug] 	found org.seleniumhq.selenium#selenium-server;2.39.0 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-server;2.39.0 [compile->runtime]
@@ -322,7 +322,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#selenium-server;2.39.0 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.48 [compile->default(compile)]
 [info] Resolving org.bouncycastle#bcprov-jdk15on;1.48 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52852b31
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c89b7b2
 [debug] sbt-chain: module revision found in cache: org.bouncycastle#bcprov-jdk15on;1.48
 [debug] 	found org.bouncycastle#bcprov-jdk15on;1.48 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.48 [compile->runtime]
@@ -330,7 +330,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.bouncycastle#bcprov-jdk15on;1.48 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.48 [compile->default(compile)]
 [info] Resolving org.bouncycastle#bcpkix-jdk15on;1.48 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5f1688b1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e25ff88
 [debug] sbt-chain: module revision found in cache: org.bouncycastle#bcpkix-jdk15on;1.48
 [debug] 	found org.bouncycastle#bcpkix-jdk15on;1.48 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.48 [compile->runtime]
@@ -338,7 +338,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.bouncycastle#bcpkix-jdk15on;1.48 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->mx4j#mx4j-tools;3.0.1 [compile->default(compile)]
 [info] Resolving mx4j#mx4j-tools;3.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ac1a24
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12ef39df
 [debug] sbt-chain: module revision found in cache: mx4j#mx4j-tools;3.0.1
 [debug] 	found mx4j#mx4j-tools;3.0.1 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->mx4j#mx4j-tools;3.0.1 [compile->runtime]
@@ -346,7 +346,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->mx4j#mx4j-tools;3.0.1 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.mortbay.jetty#servlet-api-2.5;6.1.9 [compile->default(compile)]
 [info] Resolving org.mortbay.jetty#servlet-api-2.5;6.1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18242b41
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1a30d722
 [debug] sbt-chain: module revision found in cache: org.mortbay.jetty#servlet-api-2.5;6.1.9
 [debug] 	found org.mortbay.jetty#servlet-api-2.5;6.1.9 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.mortbay.jetty#servlet-api-2.5;6.1.9 [compile->runtime]
@@ -354,7 +354,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.mortbay.jetty#servlet-api-2.5;6.1.9 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#jetty-repacked;7.6.1 [compile->default(compile)]
 [info] Resolving org.seleniumhq.selenium#jetty-repacked;7.6.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ed805f3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@23b31464
 [debug] sbt-chain: module revision found in cache: org.seleniumhq.selenium#jetty-repacked;7.6.1
 [debug] 	found org.seleniumhq.selenium#jetty-repacked;7.6.1 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#jetty-repacked;7.6.1 [compile->runtime]
@@ -362,7 +362,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.seleniumhq.selenium#jetty-repacked;7.6.1 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->net.jcip#jcip-annotations;1.0 [compile->default(compile)]
 [info] Resolving net.jcip#jcip-annotations;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@721e00c4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7113d85d
 [debug] sbt-chain: module revision found in cache: net.jcip#jcip-annotations;1.0
 [debug] 	found net.jcip#jcip-annotations;1.0 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->net.jcip#jcip-annotations;1.0 [compile->runtime]
@@ -370,12 +370,20 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->net.jcip#jcip-annotations;1.0 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->default(compile)]
 [info] Resolving org.yaml#snakeyaml;1.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29a33585
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4dadabdf
 [debug] sbt-chain: module revision found in cache: org.yaml#snakeyaml;1.8
 [debug] 	found org.yaml#snakeyaml;1.8 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->default(compile)]
+[info] Resolving com.google.code.findbugs#jsr305;1.3.9 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b144451
+[debug] sbt-chain: module revision found in cache: com.google.code.findbugs#jsr305;1.3.9
+[debug] 	found com.google.code.findbugs#jsr305;1.3.9 in sbt-chain
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
 [debug] == resolving dependencies for search#search$sources_2.11;1.0 [runtime]
 [debug] == resolving dependencies for search#search$sources_2.11;1.0 [compile]
@@ -563,6 +571,10 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -747,6 +759,10 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->master]
 [debug] resolving dependencies for configuration 'test'
 [debug] == resolving dependencies for search#search$sources_2.11;1.0 [test]
 [debug] == resolving dependencies for search#search$sources_2.11;1.0 [runtime]
@@ -935,6 +951,10 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -1119,6 +1139,10 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
@@ -1303,9 +1327,13 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [test->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [test->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [test->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [test->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [test->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [test->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [test->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;3.0.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@481544ef
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@fa79977
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;3.0.0
 [debug] 	found org.scalatest#scalatest_2.11;3.0.0 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->runtime]
@@ -1313,7 +1341,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@376d0ec5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@63e11c12
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.5
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.5 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->runtime]
@@ -1321,7 +1349,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang.modules#scala-xml_2.11;1.0.5 [test->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8f2a1f5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@26f7705f
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->runtime]
@@ -1329,7 +1357,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [test->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->com.novocode#junit-interface;0.10 [test->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@182dda5f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@71e10e03
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.10
 [debug] 	found com.novocode#junit-interface;0.10 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->com.novocode#junit-interface;0.10 [test->runtime]
@@ -1337,7 +1365,7 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->com.novocode#junit-interface;0.10 [test->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->junit#junit-dep;4.10 [test->default(compile)]
 [info] Resolving junit#junit-dep;4.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6172fa23
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3888f327
 [debug] sbt-chain: module revision found in cache: junit#junit-dep;4.10
 [debug] 	found junit#junit-dep;4.10 in sbt-chain
 [debug] == resolving dependencies search#search$sources_2.11;1.0->junit#junit-dep;4.10 [test->runtime]
@@ -1534,6 +1562,10 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->master]
 [debug] == resolving dependencies for search#search$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies for search#search$sources_2.11;1.0 [provided]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile-internal->default(compile)]
@@ -1720,6 +1752,10 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile-internal->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile-internal->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile-internal->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile-internal->master]
 [debug] resolving dependencies for configuration 'runtime-internal'
 [debug] == resolving dependencies for search#search$sources_2.11;1.0 [runtime-internal]
 [debug] == resolving dependencies for search#search$sources_2.11;1.0 [runtime]
@@ -1908,6 +1944,10 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -2092,6 +2132,10 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->master]
 [debug] == resolving dependencies for search#search$sources_2.11;1.0 [optional]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->default(compile)]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime-internal->runtime]
@@ -2277,6 +2321,10 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime-internal->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime-internal->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime-internal->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime-internal->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime-internal->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime-internal->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime-internal->master]
 [debug] resolving dependencies for configuration 'test-internal'
 [debug] == resolving dependencies for search#search$sources_2.11;1.0 [test-internal]
 [debug] == resolving dependencies for search#search$sources_2.11;1.0 [test]
@@ -2466,6 +2514,10 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [compile->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [compile->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->default(compile)]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [runtime->compile]
@@ -2650,6 +2702,10 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [runtime->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [runtime->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->default(compile)]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [test->compile]
@@ -2834,6 +2890,10 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [test->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [test->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [test->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [test->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [test->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [test->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [test->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->default(compile)]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test->compile]
@@ -3040,6 +3100,10 @@
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [test-internal->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [test-internal->compile]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.yaml#snakeyaml;1.8 [test-internal->master]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [test-internal->default(compile)]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [test-internal->runtime]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [test-internal->compile]
+[debug] == resolving dependencies search#search$sources_2.11;1.0->com.google.code.findbugs#jsr305;1.3.9 [test-internal->master]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test-internal->default(compile)]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test-internal->runtime]
 [debug] == resolving dependencies search#search$sources_2.11;1.0->org.scalatest#scalatest_2.11;3.0.0 [test-internal->compile]
@@ -3200,6 +3264,29 @@
 [debug] 	[NOT REQUIRED] net.jcip#jcip-annotations;1.0!jcip-annotations.jar(src)
 [debug] 	[NOT REQUIRED] org.yaml#snakeyaml;1.8!snakeyaml.jar
 [debug] 	[NOT REQUIRED] org.yaml#snakeyaml;1.8!snakeyaml.jar(src)
+[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar
+[debug] 		tried C:\Users\Stephen.Kam\.ivy2\local\com.google.code.findbugs\jsr305\1.3.9\srcs\jsr305-sources.jar
+[debug] 		tried C:\Users\Stephen.Kam\.activator\repository\com.google.code.findbugs\jsr305\1.3.9\srcs\jsr305-sources.jar
+[debug] 		tried C:\CapGemini\activator-dist-1.3.10\repository\com.google.code.findbugs\jsr305\1.3.9\srcs\jsr305-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/releases/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
+[debug] 		tried http://repo.typesafe.com/typesafe/ivy-releases/com.google.code.findbugs/jsr305/1.3.9/srcs/jsr305-sources.jar
+[debug] CLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/com.google.code.findbugs/jsr305/1.3.9/srcs/jsr305-sources.jar
+[warn] 	[FAILED     ] com.google.code.findbugs#jsr305;1.3.9!jsr305.jar(src):  (0ms)
+[warn] ==== local: tried
+[warn]   C:\Users\Stephen.Kam\.ivy2\local\com.google.code.findbugs\jsr305\1.3.9\srcs\jsr305-sources.jar
+[warn] ==== activator-launcher-local: tried
+[warn]   C:\Users\Stephen.Kam\.activator\repository\com.google.code.findbugs\jsr305\1.3.9\srcs\jsr305-sources.jar
+[warn] ==== activator-local: tried
+[warn]   C:\CapGemini\activator-dist-1.3.10\repository\com.google.code.findbugs\jsr305\1.3.9\srcs\jsr305-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
+[warn] ==== typesafe-releases: tried
+[warn]   http://repo.typesafe.com/typesafe/releases/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9-sources.jar
+[warn] ==== typesafe-ivy-releasez: tried
+[warn]   http://repo.typesafe.com/typesafe/ivy-releases/com.google.code.findbugs/jsr305/1.3.9/srcs/jsr305-sources.jar
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;3.0.0!scalatest_2.11.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.5!scala-xml_2.11.jar(src)
@@ -3213,7 +3300,13 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 1590ms :: artifacts dl 122ms
+[debug] :: resolution report :: resolve 835ms :: artifacts dl 1217ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::              FAILED DOWNLOADS            ::
+[warn] 	:: ^ see resolution messages for details  ^ ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: com.google.code.findbugs#jsr305;1.3.9!jsr305.jar(src)
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [debug] 	report for search#search$sources_2.11;1.0 compile produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search$sources_2.11-compile.xml
 [debug] 	report for search#search$sources_2.11;1.0 runtime produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search$sources_2.11-runtime.xml
 [debug] 	report for search#search$sources_2.11;1.0 test produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search$sources_2.11-test.xml
@@ -3227,4 +3320,4 @@
 [debug] 	report for search#search$sources_2.11;1.0 docs produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search$sources_2.11-docs.xml
 [debug] 	report for search#search$sources_2.11;1.0 pom produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search$sources_2.11-pom.xml
 [debug] 	report for search#search$sources_2.11;1.0 scala-tool produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search$sources_2.11-scala-tool.xml
-[debug] 	resolve done (1590ms resolve - 122ms download)
+[debug] 	resolve done (835ms resolve - 1217ms download)
