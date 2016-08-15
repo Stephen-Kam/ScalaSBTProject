@@ -106,7 +106,7 @@ class Homepage  {
     destinationStation.sendKeys(destination)
   }
 
-    def clickTomorrowNextDay(): Unit = {
+  def clickTomorrowNextDay(): Unit = {
     tomorrowButton.click()
     nextdayButton.click()
   }
@@ -138,9 +138,9 @@ class Homepage  {
 
   def iterateThroughDates(implicit driver: WebDriver): Unit = {
     def iterateThroughTheDates(dates: List[Element]): Unit = {
-      val head = dates.head
+      val head = dates.head.underlying.getText
       val tail = dates.tail
-      println(head.underlying.getText)
+      println(head)
       if (tail.isEmpty) println("End of List") else iterateThroughTheDates(tail)
     }
     click on "outDate"

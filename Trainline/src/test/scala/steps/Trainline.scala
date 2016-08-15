@@ -58,8 +58,14 @@ class Trainline extends Support {
     scenario("Display all  of the dates from the calendar", PositiveTest) {
       Given("I am on the Trainline website")
 
+      When("I enter the 'from' and 'to' locations")
+      homepage.enterStations("London", "Brighton")
+
       When("I click on the out date then all of the dates will  be printed")
       homepage.iterateThroughDates
+
+      //And("I press the submit button")
+      //homepage.clickSubmit
 
       info("////////////////END OF TEST/////////////////////////")
     }
@@ -67,14 +73,11 @@ class Trainline extends Support {
     scenario("Ticket search with 'today' and 'next day'", PositiveTest) {
       Given("I'm on The Train Line main page")
 
-      When("I enter the 'from' and 'to' locations")
-      homepage.enterStations("London", "Brighton")
-
       And("I select the 'today' and 'next day' button")
       homepage.clickTomorrowNextDay()
 
       And("I press the submit button")
-      click on "submitButton"
+      homepage.clickSubmit
 
       Then("the 'tomorrow' and 'next day' date displays")
       homepage.assertTodayDate()
@@ -92,7 +95,7 @@ class Trainline extends Support {
       homepage.selectRandomNoOfAdults
 
       When("I press the submit button")
-      click on "submitButton"
+      homepage.clickSubmit
 
       Then("The timetable page will show the correct number of adults")
       homepage.isNoOfAdultsCorrect()

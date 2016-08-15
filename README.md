@@ -44,3 +44,10 @@ To utilise, launch SBT, there are currently two tags: PositiveTest and NegativeT
 Current problem I am encountering is that a second blank driver is launched, which I am trying to solve. 
 
 Drivers, when not quit, remain in the processes so over time, many instances of the driver remain open
+
+Other Issues Currently Attempting to Solve
+==========================================
+
+In Java, I was able to successfully and fairly easily able to iterate through the outdate calendar and select by linktext a date
+
+However in Scala I am able to iterate through the dates and print each one out however, if I try and click on one, I get a cannot find element exception
