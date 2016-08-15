@@ -73,6 +73,9 @@ class Trainline extends Support {
     scenario("Ticket search with 'today' and 'next day'", PositiveTest) {
       Given("I'm on The Train Line main page")
 
+      When("I enter the 'from' and 'to' locations")
+      homepage.enterStations("London", "Brighton")
+
       And("I select the 'today' and 'next day' button")
       homepage.clickTomorrowNextDay()
 
@@ -80,7 +83,7 @@ class Trainline extends Support {
       homepage.clickSubmit
 
       Then("the 'tomorrow' and 'next day' date displays")
-      homepage.assertTodayDate()
+      homepage.correctOutDateOnTimetable()
 
       info("////////////////END OF TEST/////////////////////////")
     }

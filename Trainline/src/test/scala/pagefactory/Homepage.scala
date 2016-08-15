@@ -119,7 +119,7 @@ class Homepage  {
     click on "submitButton"
   }
 
-  def assertTodayDate(): Unit = {
+  def correctOutDateOnTimetable(): Unit = {
     val monthYear = new SimpleDateFormat("MMM y")
     val my = monthYear.format(Calendar.getInstance().getTime)
     var tomorrowDate: String = ""

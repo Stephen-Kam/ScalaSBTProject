@@ -39,8 +39,8 @@
       <file leaf-file-name="Trainline.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Trainline.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+            <state relative-caret-position="374">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,8 +61,8 @@
       <file leaf-file-name="Homepage.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+            <state relative-caret-position="304">
+              <caret line="128" column="26" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
               <folding>
                 <element signature="e#21#54#0" expanded="true" />
               </folding>
@@ -159,8 +159,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/pagefactory/TimetablePage.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/steps/NegativeTrainline.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/Tags.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/steps/Trainline.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/steps/Trainline.scala" />
       </list>
     </option>
   </component>
@@ -360,7 +360,7 @@
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="RunManager" selected="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar">
+  <component name="RunManager" selected="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'">
     <configuration default="false" name="Trainline" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="trainline" />
@@ -391,21 +391,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="NegativeTrainline" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="trainline" />
-      <setting name="path" value="steps.NegativeTrainline" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="trainline" />
@@ -431,6 +416,21 @@
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="trainline" />
+      <setting name="path" value="steps.Trainline" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -735,17 +735,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="ScalaTest.Trainline" />
       <item index="1" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.Trainline" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Trainline" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" />
       </list>
     </recent_temporary>
   </component>
@@ -796,23 +796,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Display_all__of_the_dates_from_the_calendar - 2016.08.15 at 15h 12m 05s.xml">
-      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Display_all__of_the_dates_from_the_calendar - 2016.08.15 at 15h 21m 57s.xml">
-      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Display_all__of_the_dates_from_the_calendar - 2016.08.15 at 15h 26m 29s.xml">
-      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Display_all__of_the_dates_from_the_calendar - 2016.08.15 at 15h 30m 19s.xml">
-      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Display_all__of_the_dates_from_the_calendar - 2016.08.15 at 15h 31m 07s.xml">
-      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Display_all__of_the_dates_from_the_calendar - 2016.08.15 at 15h 33m 00s.xml">
-      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Trainline - 2016.08.15 at 16h 08m 24s.xml">
+      <configuration name="Trainline" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Display_all__of_the_dates_from_the_calendar - 2016.08.15 at 15h 33m 29s.xml">
       <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar" configurationId="ScalaTestRunConfiguration" />
@@ -826,6 +811,21 @@
     <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Display_all__of_the_dates_from_the_calendar - 2016.08.15 at 15h 43m 17s.xml">
       <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Display all  of the dates from the calendar" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ticket_search_with_'today'_and_'next_day' - 2016.08.15 at 16h 05m 46s.xml">
+      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ticket_search_with_'today'_and_'next_day' - 2016.08.15 at 16h 06m 06s.xml">
+      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ticket_search_with_'today'_and_'next_day' - 2016.08.15 at 16h 07m 29s.xml">
+      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ticket_search_with_'today'_and_'next_day' - 2016.08.15 at 16h 09m 38s.xml">
+      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ticket_search_with_'today'_and_'next_day' - 2016.08.15 at 16h 10m 53s.xml">
+      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-247" y="-1088" width="1936" height="1015" extended-state="6" />
@@ -833,13 +833,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16685084" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16685084" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32707182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32707182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1216,8 +1216,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+        <state relative-caret-position="304">
+          <caret line="128" column="26" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
           <folding>
             <element signature="e#21#54#0" expanded="true" />
           </folding>
@@ -1226,8 +1226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Trainline.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+        <state relative-caret-position="374">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
