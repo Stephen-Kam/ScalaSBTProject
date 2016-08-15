@@ -1,2 +1,38 @@
 [0m[[0minfo[0m] [0m[32mTrainline:[0m[0m
 [0m[[0minfo[0m] [0m[32mFeature: As a user I want to be able to use the trainline website[0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: Enter in two stations and press submit[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given I am on the Trainline website [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I enter in an origin and destination station [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I click on the submit button [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then The timetable page will be present [0m[0m
+[0m[[0minfo[0m] [0m[32m    ////////////////END OF TEST///////////////////////// [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: Enter in two stations, press next day, press submit[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given I am on the Trainline website [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I enter in an origin and destination station [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I click on the tomorrow & next day buttons [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I click on the submit button [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then The timetable page will be present [0m[0m
+[0m[[0minfo[0m] [0m[32m    ////////////////END OF TEST///////////////////////// [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: Ensure the station finder label is correct[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given I am on the Trainline website [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I click on the station finder button [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then The label will be correct [0m[0m
+[0m[[0minfo[0m] [0m[32m    ////////////////END OF TEST///////////////////////// [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: Display all  of the dates from the calendar[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given I am on the Trainline website [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I click on the out date then all of the dates will  be printed [0m[0m
+[0m[[0minfo[0m] [0m[32m    ////////////////END OF TEST///////////////////////// [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: Ticket search with 'today' and 'next day'[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given I'm on The Train Line main page [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I enter the 'from' and 'to' locations [0m[0m
+[0m[[0minfo[0m] [0m[32m    And I select the 'today' and 'next day' button [0m[0m
+[0m[[0minfo[0m] [0m[32m    And I press the submit button [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then the 'tomorrow' and 'next day' date displays [0m[0m
+[0m[[0minfo[0m] [0m[32m    ////////////////END OF TEST///////////////////////// [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: Select a random number of adults and check that the timetable page accurately reflects this[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given I'm on The Train Line main page [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I enter the 'from' and 'to' locations [0m[0m
+[0m[[0minfo[0m] [0m[32m    And I select a random number of adults [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I press the submit button [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then The timetable page will show the correct number of adults [0m[0m
+[0m[[0minfo[0m] [0m[32m    ////////////////END OF TEST///////////////////////// [0m[0m

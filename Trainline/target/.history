@@ -12,3 +12,8 @@ test-only -n NegativeTet
 test-only -n NegativeTest
 test-only --  NegativeTest
 test-only -- -n NegativeTest
+quit
+exit
+test-only -- -n PositiveTest
+run evicted
+evicted
