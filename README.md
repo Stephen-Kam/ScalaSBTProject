@@ -28,3 +28,19 @@ Open up or navigate to the main Trainline folder whilst in command line
 Launch SBT
 
 > Test
+
+
+Test Tagging
+=============
+
+Latest commit included the use of tagging tests.
+
+See Utils folder, Tag object
+
+To utilise, launch SBT, there are currently two tags: PositiveTest and NegativeTest
+
+>test-only -- -n PositiveTest
+
+Current problem I am encountering is that a second blank driver is launched, which I am trying to solve. 
+
+Drivers, when not quit, remain in the processes so over time, many instances of the driver remain open
