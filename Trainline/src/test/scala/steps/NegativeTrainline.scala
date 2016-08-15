@@ -1,5 +1,6 @@
 package steps
 
+import org.openqa.selenium.support.ui.Select
 import utils.{NegativeTest, Support}
 
 /**
@@ -17,6 +18,8 @@ class NegativeTrainline extends Support{
 
       Then("Two messages will appear telling myself to enter in an origin and destination station")
       homepage.errorMessagesCorrect(driver)
+
+      info("////////////////END OF TEST/////////////////////////")
     }
 
     scenario("When an out time is set in the past, an appropriate error message should be displayed", NegativeTest) {
@@ -33,10 +36,11 @@ class NegativeTrainline extends Support{
 
       When("I click the submit button")
       homepage.clickSubmit
-      //homepage.checkOutHourChangesToPresent(driver)
 
       Then("The timetable will appear showing journeys from the present time")
-      timetablepage.isTimetableVisible
+      timetablepage.checkTrainHour(homepage)
+
+      info("////////////////END OF TEST/////////////////////////")
     }
   }
 

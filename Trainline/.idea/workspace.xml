@@ -36,14 +36,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Trainline.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Trainline.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Trainline.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
-              <folding>
-                <element signature="e#15#52#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="392">
+              <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,9 +49,11 @@
       <file leaf-file-name="NegativeTrainline.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/steps/NegativeTrainline.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="613">
+              <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+              <folding>
+                <element signature="e#15#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,8 +61,8 @@
       <file leaf-file-name="Homepage.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="419">
+              <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
               <folding>
                 <element signature="e#21#54#0" expanded="true" />
               </folding>
@@ -70,23 +70,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TimetablePage.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/TimetablePage.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
               <folding>
-                <element signature="e#21#58#0" expanded="true" />
+                <element signature="e#21#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,9 +95,11 @@
       <file leaf-file-name="Pagefactory.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Pagefactory.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,16 +112,6 @@
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tags.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Tags.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -161,14 +143,14 @@
         <option value="$PROJECT_DIR$/src/test/scala/steps/vzcsxcx.sc" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/Pagefactory.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/BrowserInitialisation.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/pagefactory/TimetablePage.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/TestTags.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/Support.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/steps/NegativeTrainline.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/Tags.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/test/scala/pagefactory/TimetablePage.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/steps/NegativeTrainline.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/steps/Trainline.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala" />
       </list>
     </option>
   </component>
@@ -211,10 +193,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -372,7 +350,7 @@
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="RunManager" selected="ScalaTest.Trainline">
+  <component name="RunManager" selected="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this">
     <configuration default="false" name="Trainline" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="trainline" />
@@ -745,11 +723,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Trainline" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Trainline" />
         <item index="2" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" />
-        <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline" />
+        <item index="4" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
       </list>
     </recent_temporary>
   </component>
@@ -800,40 +778,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NegativeTrainline - 2016.08.15 at 11h 47m 39s.xml">
-      <configuration name="NegativeTrainline" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 10h 33m 09s.xml">
+    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 14h 12m 01s.xml">
       <configuration name="NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 10h 34m 23s.xml">
+    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 14h 26m 54s.xml">
       <configuration name="NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 10h 35m 08s.xml">
+    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 14h 27m 26s.xml">
       <configuration name="NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 10h 35m 53s.xml">
+    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 14h 28m 10s.xml">
       <configuration name="NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 10h 39m 48s.xml">
+    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 14h 30m 03s.xml">
       <configuration name="NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 10h 40m 39s.xml">
+    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 14h 30m 39s.xml">
       <configuration name="NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 10h 42m 00s.xml">
-      <configuration name="NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="NegativeTrainline_Feature__As_a_Web_Administrator_Scenario__When_an_out_time_is_set_in_the_past,_an_appropriate_error_message_should_be_displayed - 2016.08.15 at 11h 05m 20s.xml">
-      <configuration name="NegativeTrainline.Feature: As a Web Administrator Scenario: When an out time is set in the past, an appropriate error message should be displayed" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Trainline - 2016.08.15 at 12h 07m 29s.xml">
+    <history-entry file="Trainline - 2016.08.15 at 14h 48m 48s.xml">
       <configuration name="Trainline" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Select_a_random_number_of_adults_and_check_that_the_timetable_page_accurately_reflects_this - 2016.08.15 at 14h 50m 07s.xml">
+      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Select_a_random_number_of_adults_and_check_that_the_timetable_page_accurately_reflects_this - 2016.08.15 at 14h 52m 18s.xml">
+      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Select_a_random_number_of_adults_and_check_that_the_timetable_page_accurately_reflects_this - 2016.08.15 at 14h 52m 37s.xml">
+      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-247" y="-1088" width="1936" height="1015" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -843,12 +821,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32707182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32707182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13385417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13385417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -888,9 +866,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -918,9 +894,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
           <caret line="78" column="55" selection-start-line="78" selection-start-column="55" selection-end-line="78" selection-end-column="55" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -956,9 +930,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -992,9 +964,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,9 +990,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,9 +1015,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,9 +1047,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1108,9 +1072,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1170,37 +1132,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Pagefactory.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="238">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Support.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/TimetablePage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Tags.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Pagefactory.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1214,18 +1168,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Support.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/TimetablePage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="e#21#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/steps/NegativeTrainline.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="613">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+          <folding>
+            <element signature="e#15#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="419">
+          <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
           <folding>
             <element signature="e#21#54#0" expanded="true" />
           </folding>
@@ -1234,18 +1208,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Trainline.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
-          <folding>
-            <element signature="e#15#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="392">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
           <folding />
         </state>
       </provider>

@@ -3,9 +3,9 @@ package pagefactory
 import java.text.SimpleDateFormat
 import java.util.Calendar
 
-import org.openqa.selenium.{WebDriver, WebElement}
+import org.openqa.selenium.{By, WebDriver, WebElement}
 import org.openqa.selenium.support.FindBy
-import org.openqa.selenium.support.ui.{ExpectedConditions, WebDriverWait}
+import org.openqa.selenium.support.ui.{ExpectedConditions, Select, WebDriverWait}
 import org.scalatest.selenium.WebBrowser._
 
 
@@ -46,7 +46,7 @@ class Homepage  {
   protected var nextdayButton: WebElement = _
 
   @FindBy(id="outHour")
-  protected var outHour: WebElement = _
+  var outHour: WebElement = _
 
   @FindBy(xpath=".//*[@id='extendedSearchForm']/div[3]/div[1]/div/button")
   protected var railcardButton: WebElement = _
@@ -157,7 +157,7 @@ class Homepage  {
     click on railcardButtonDone
   }
 
-  def isNoOfAdultsCorrect: Unit = {
+  def isNoOfAdultsCorrect(): Unit = {
     assert(timetableHeader.getText contains randomnumber, "The number of adults did not match")
   }
 
@@ -165,36 +165,38 @@ class Homepage  {
   ///////////START OF NEGATIVE FUNCTIONS///////////
   /////////////////////////////////////////////////
 
-  def getCurrentOutHourFromPage: Unit = {
-    currentOutHour = outHour.getText
+  def getCurrentOutHour: String = {
+    currentOutHour
+  }
+
+  def getCurrentOutHourFromPage(driver: WebDriver): Unit = {
+    var select = new Select(driver.findElement(By.id("outHour")))
+    currentOutHour = select.getFirstSelectedOption.getText
   }
 
   def selectPastOutHour(implicit driver: WebDriver): Unit = {
-    getCurrentOutHourFromPage
+    getCurrentOutHourFromPage(driver)
     val wait: WebDriverWait = new WebDriverWait(driver, 10)
     singleSel("outHour").value = "0"
     wait.until(ExpectedConditions.visibilityOf(outhourErrorMessage))
   }
 
-  def checkOutHourChangesToPresent(driver: WebDriver): Unit = {
-    while (driver.getCurrentUrl == "https://www.thetrainline.com/") {
-      assert(outHour.getText contentEquals currentOutHour, "OutHour does not revert back to present hour")
-    }
-  }
-
   def outHourErrorMessageCorrect(): Unit = {
     assert(outhourErrorMessage.getText contentEquals "Your outward journey is in the past", "OutHour Error message incorrect. " +
     "Expected: Your outward journey is in the past, Actual: " + outhourErrorMessage.getText)
-
   }
 
   def errorMessagesCorrect(driver:  WebDriver): Unit = {
+    val expectedOriginMessage = "Please enter the station you will be travelling from"
+    val expectedDestinationMessage = "Please enter the station you will be travelling to"
     val wait: WebDriverWait = new WebDriverWait(driver, 10)
     wait.until(ExpectedConditions.visibilityOf(originErrorMessage))
-    assert(originErrorMessage.getText contentEquals "Please enter the station you will be travelling from", "Origin Error message incorrect." +
-      "Expected: Please enter the station you will be travelling from, Actual: " + originErrorMessage.getText)
-    assert(destinationErrorMessage.getText contentEquals "Please enter the station you will be travelling to", "Origin Error message incorrect." +
-      "Expected: Please enter the station you will be travelling to, Actual: " + originErrorMessage.getText)
+
+    assert(originErrorMessage.getText contentEquals expectedOriginMessage, "Origin Error message incorrect." +
+      "Expected: " + expectedOriginMessage + ", Actual: " + originErrorMessage.getText)
+
+    assert(destinationErrorMessage.getText contentEquals expectedDestinationMessage, "Origin Error message incorrect." +
+      "Expected: " + expectedDestinationMessage + ", Actual: " + originErrorMessage.getText)
   }
 
 

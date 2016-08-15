@@ -1,7 +1,5 @@
 package steps
 
-import javax.swing.text.html.HTML.Tag
-
 import utils.{PositiveTest, Support}
 
 /**
@@ -21,7 +19,7 @@ class Trainline extends Support {
       homepage.clickSubmit
 
       Then("The timetable page will be present")
-      timetablepage.isTimetableVisible
+      timetablepage.isTimetableVisible()
 
       info("////////////////END OF TEST/////////////////////////")
     }
@@ -39,7 +37,7 @@ class Trainline extends Support {
       homepage.clickSubmit
 
       Then("The timetable page will be present")
-      timetablepage.isTimetableVisible
+      timetablepage.isTimetableVisible()
 
       info("////////////////END OF TEST/////////////////////////")
 
@@ -97,7 +95,7 @@ class Trainline extends Support {
       click on "submitButton"
 
       Then("The timetable page will show the correct number of adults")
-      homepage.isNoOfAdultsCorrect
+      homepage.isNoOfAdultsCorrect()
 
       info("////////////////END OF TEST/////////////////////////")
     }
