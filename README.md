@@ -1,12 +1,12 @@
-Simple SBT Scala Project
+Simple SBT Scala Project w/ Selenium
 =========================
 
-This is a simple Scala SBT project using IntelliJ IDEA
+This is a simple Scala SBT project using IntelliJ IDEA and Selenium WebDriver
 
 The Trainline project is an automation project using the Trainline website as a testing ground
 
 There are many features located in the trainline test files that took myself a while to research, 
-so may be useful for others wanting to learn Scala & Selenium as there isn't that many resources out there]
+so may be useful for others wanting to learn Scala & Selenium as there isn't that many resources out there
 
 How to test project
 ===================
