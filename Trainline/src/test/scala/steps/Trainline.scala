@@ -1,6 +1,8 @@
 package steps
 
-import utils.Support
+import javax.swing.text.html.HTML.Tag
+
+import utils.{PositiveTest, Support}
 
 /**
   * Created by Stephen.Kam on 03/08/2016.
@@ -9,7 +11,7 @@ class Trainline extends Support {
 
   feature("As a user I want to be able to use the trainline website") {
 
-    scenario("Enter in two stations and press submit") {
+    scenario("Enter in two stations and press submit", PositiveTest) {
       Given("I am on the Trainline website")
 
       When("I enter in an origin and destination station")
@@ -24,7 +26,7 @@ class Trainline extends Support {
       info("////////////////END OF TEST/////////////////////////")
     }
 
-    scenario("Enter in two stations, press next day, press submit") {
+    scenario("Enter in two stations, press next day, press submit", PositiveTest) {
       Given("I am on the Trainline website")
 
       When("I enter in an origin and destination station")
@@ -43,7 +45,7 @@ class Trainline extends Support {
 
     }
 
-    scenario("Ensure the station finder label is correct") {
+    scenario("Ensure the station finder label is correct", PositiveTest) {
       Given("I am on the Trainline website")
 
       When("I click on the station finder button")
@@ -55,7 +57,7 @@ class Trainline extends Support {
       info("////////////////END OF TEST/////////////////////////")
     }
 
-    scenario("Display all  of the dates from the calendar") {
+    scenario("Display all  of the dates from the calendar", PositiveTest) {
       Given("I am on the Trainline website")
 
       When("I click on the out date then all of the dates will  be printed")
@@ -64,7 +66,7 @@ class Trainline extends Support {
       info("////////////////END OF TEST/////////////////////////")
     }
 
-    scenario("Ticket search with 'today' and 'next day'") {
+    scenario("Ticket search with 'today' and 'next day'", PositiveTest) {
       Given("I'm on The Train Line main page")
 
       When("I enter the 'from' and 'to' locations")
@@ -82,7 +84,7 @@ class Trainline extends Support {
       info("////////////////END OF TEST/////////////////////////")
     }
 
-    scenario("Select a random number of adults and check that the timetable page accurately reflects this") {
+    scenario("Select a random number of adults and check that the timetable page accurately reflects this", PositiveTest) {
       Given("I'm on The Train Line main page")
 
       When("I enter the 'from' and 'to' locations")

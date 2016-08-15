@@ -4,3 +4,11 @@ Trainline.scala
 trainline/
 cd trainline/
 test
+test-only -- -1 PositiveTest
+test-only -- PositiveTest
+test-only -- -n  PositiveTest
+test-only -- -n  NegativeTest
+test-only -n NegativeTet
+test-only -n NegativeTest
+test-only --  NegativeTest
+test-only -- -n NegativeTest

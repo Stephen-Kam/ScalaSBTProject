@@ -1,6 +1,6 @@
 package steps
 
-import utils.Support
+import utils.{NegativeTest, Support}
 
 /**
   * Created by Stephen.Kam on 15/08/2016.
@@ -9,7 +9,7 @@ class NegativeTrainline extends Support{
 
   feature("As a Web Administrator") {
 
-    scenario("All of the error labels should be correct") {
+    scenario("All of the error labels should be correct", NegativeTest) {
       Given("I am on the Trainline website")
 
       When("I click on the submit button w/out entering any other details")
@@ -19,7 +19,7 @@ class NegativeTrainline extends Support{
       homepage.errorMessagesCorrect(driver)
     }
 
-    scenario("When an out time is set in the past, an appropriate error message should be displayed") {
+    scenario("When an out time is set in the past, an appropriate error message should be displayed", NegativeTest) {
       Given("I am on the Trainline website")
 
       When("I enter in an origin and destination station")

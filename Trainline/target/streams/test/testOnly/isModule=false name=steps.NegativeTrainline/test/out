@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0m[32mNegativeTrainline:[0m[0m
+[0m[[0minfo[0m] [0m[32mFeature: As a Web Administrator[0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: All of the error labels should be correct[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given I am on the Trainline website [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I click on the submit button w/out entering any other details [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then Two messages will appear telling myself to enter in an origin and destination station [0m[0m
+[0m[[0minfo[0m] [0m[32m  Scenario: When an out time is set in the past, an appropriate error message should be displayed[0m[0m
+[0m[[0minfo[0m] [0m[32m    Given I am on the Trainline website [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I enter in an origin and destination station [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I change the out time to the past [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then An error message will be displayed alerting me that the out time is in the past [0m[0m
+[0m[[0minfo[0m] [0m[32m    When I click the submit button [0m[0m
+[0m[[0minfo[0m] [0m[32m    Then The timetable will appear showing journeys from the present time [0m[0m
