@@ -703,9 +703,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 629ms :: artifacts dl 34ms
+[debug] :: resolution report :: resolve 785ms :: artifacts dl 47ms
 [debug] 	report for search#search$sbt_2.11;1.0 default produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search$sbt_2.11-default.xml
-[debug] 	resolve done (629ms resolve - 34ms download)
+[debug] 	resolve done (785ms resolve - 47ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: search#search$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1069,6 +1069,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 117ms :: artifacts dl 37ms
+[debug] :: resolution report :: resolve 127ms :: artifacts dl 49ms
 [debug] 	report for search#search$sources_2.11;1.0 default produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search$sources_2.11-default.xml
-[debug] 	resolve done (117ms resolve - 37ms download)
+[debug] 	resolve done (127ms resolve - 49ms download)

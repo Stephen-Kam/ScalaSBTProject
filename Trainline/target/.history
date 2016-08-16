@@ -17,3 +17,11 @@ exit
 test-only -- -n PositiveTest
 run evicted
 evicted
+test
+gtest-only -- -n PositiveTest
+test-only -- -n PositiveTest
+test-only -- -1 PositiveTest
+tes-only -- -w NegativeTest
+test-only -- -w NegativeTest
+test only -- -n NegativeTest
+test-only -- -n NegativeTest

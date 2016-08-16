@@ -51,3 +51,18 @@ Other Issues Currently Attempting to Solve
 In Java, I was able to successfully and fairly easily able to iterate through the outdate calendar and select by linktext a date
 
 However in Scala I am able to iterate through the dates and print each one out however, if I try and click on one, I get a cannot find element exception
+
+Using the Marionette/Gecko driver for Firefox
+=============================================
+
+Managed to get the project working with Firefox version 46, version 0.10.0 Gecko driver and the latest Selenium build 3.0.0-Beta2
+
+When I first implemented the driver, a vast majority of the tests would fail, upon investigation, the driver is progressing too quickly.
+
+When I would click on the submit button, the driver would try and assert for an element to be visible before the page had even loaded.
+
+So to solve the problem, I've added a bunch of wait for an element to be visible lines, which is annoying but hopefully with future versions of the driver, this may change.
+
+Seemingly, tests which involves selecting an option from a list causes the test to fail. Maybe the driver is progressing too quickly that it can't even select an option.
+
+To switch between the different drivers, open up the BrowserInitialisation trait and comment out the chrome lines, and uncomment the gecko lines

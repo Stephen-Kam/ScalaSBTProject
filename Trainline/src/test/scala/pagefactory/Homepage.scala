@@ -48,11 +48,17 @@ class Homepage  {
   @FindBy(id="outHour")
   var outHour: WebElement = _
 
+  @FindBy(id="outMinute")
+  var outMinute: WebElement = _
+
   @FindBy(xpath=".//*[@id='extendedSearchForm']/div[3]/div[1]/div/button")
   protected var railcardButton: WebElement = _
 
   @FindBy(xpath=".//*[@id='extendedSearchForm']/div[3]/div[1]/div/div/button")
   protected var railcardButtonDone: WebElement = _
+
+  @FindBy(id="submitButton")
+  protected var submitButton: WebElement = _
 
   @FindBy(xpath=".//*[@id='tickets']/div/div[1]/table/thead/tr[1]/th[2]/div/h3")
   protected var timetableOutdate: WebElement = _
@@ -77,6 +83,8 @@ class Homepage  {
 
   protected var currentOutHour = ""
 
+  protected var currentOutMinute = ""
+
   /////////////////////////////////////////////////
   ///////////////START OF FUNCTIONS////////////////
   /////////////////////////////////////////////////
@@ -95,7 +103,7 @@ class Homepage  {
     click on "stationFinder"
   }
 
-  def isStationFinderLabelCorrect(driver: WebDriver): Unit = {
+  def isStationFinderLabelCorrect(implicit driver: WebDriver): Unit = {
     val wait: WebDriverWait = new WebDriverWait(driver, 10)
     wait.until(ExpectedConditions.visibilityOf(stationFinderLabel))
     println(stationFinderLabel.getText) //debugging
@@ -119,7 +127,8 @@ class Homepage  {
     click on "submitButton"
   }
 
-  def correctOutDateOnTimetable(): Unit = {
+  def correctOutDateOnTimetable(implicit driver: WebDriver): Unit = {
+    val wait: WebDriverWait = new WebDriverWait(driver, 10)
     val monthYear = new SimpleDateFormat("MMM y")
     val my = monthYear.format(Calendar.getInstance().getTime)
     var tomorrowDate: String = ""
@@ -131,6 +140,9 @@ class Homepage  {
       case 3 | 23 => tomorrowDate = aDate + "rd " + my
       case _ => tomorrowDate = aDate + "th " + my
     }
+
+    wait.until(ExpectedConditions.visibilityOf(timetableOutdate))
+
     println("Tomorrows's date is: " + tomorrowDate) //debugging
     println("OutDate is: " + timetableOutdate.getText) //debugging
     assert(timetableOutdate.getText contains tomorrowDate) //assert to ensure the result display the correct date
@@ -149,15 +161,20 @@ class Homepage  {
   }
 
   def selectRandomNoOfAdults(implicit driver: WebDriver): Unit = {
-    railcardButton.click()
+    val wait: WebDriverWait = new WebDriverWait(driver, 10)
     val rand = new scala.util.Random
     val range = 1 to 9
+    railcardButton.click()
     randomnumber = range(rand.nextInt(range length)).toString
     singleSel("adults").value = randomnumber
+    wait.until(ExpectedConditions.visibilityOf(railcardButtonDone))
     click on railcardButtonDone
+    wait.until(ExpectedConditions.visibilityOf(submitButton))
   }
 
-  def isNoOfAdultsCorrect(): Unit = {
+  def isNoOfAdultsCorrect(driver: WebDriver): Unit = {
+    val wait: WebDriverWait = new WebDriverWait(driver, 10)
+    wait.until(ExpectedConditions.visibilityOf(timetableHeader))
     assert(timetableHeader.getText contains randomnumber, "The number of adults did not match")
   }
 
@@ -172,24 +189,26 @@ class Homepage  {
   def getCurrentOutHourFromPage(driver: WebDriver): Unit = {
     var select = new Select(driver.findElement(By.id("outHour")))
     currentOutHour = select.getFirstSelectedOption.getText
+    currentOutMinute = select.getFirstSelectedOption.getText
   }
 
   def selectPastOutHour(implicit driver: WebDriver): Unit = {
     getCurrentOutHourFromPage(driver)
-    val wait: WebDriverWait = new WebDriverWait(driver, 10)
+    if (currentOutMinute == "45") currentOutHour = (currentOutHour.toInt + 1).toString
     singleSel("outHour").value = "0"
-    wait.until(ExpectedConditions.visibilityOf(outhourErrorMessage))
   }
 
-  def outHourErrorMessageCorrect(): Unit = {
+  def outHourErrorMessageCorrect(driver: WebDriver): Unit = {
+    val wait: WebDriverWait = new WebDriverWait(driver, 10)
+    wait.until(ExpectedConditions.visibilityOf(outhourErrorMessage))
     assert(outhourErrorMessage.getText contentEquals "Your outward journey is in the past", "OutHour Error message incorrect. " +
     "Expected: Your outward journey is in the past, Actual: " + outhourErrorMessage.getText)
   }
 
   def errorMessagesCorrect(driver:  WebDriver): Unit = {
+    val wait: WebDriverWait = new WebDriverWait(driver, 10)
     val expectedOriginMessage = "Please enter the station you will be travelling from"
     val expectedDestinationMessage = "Please enter the station you will be travelling to"
-    val wait: WebDriverWait = new WebDriverWait(driver, 10)
     wait.until(ExpectedConditions.visibilityOf(originErrorMessage))
 
     assert(originErrorMessage.getText contentEquals expectedOriginMessage, "Origin Error message incorrect." +

@@ -23,6 +23,7 @@ class NegativeTrainline extends Support{
     }
 
     scenario("When an out time is set in the past, an appropriate error message should be displayed", NegativeTest) {
+      //AT PRESENT THIS TEST DOES NOT WORK WHEN USING THE GECKO/FIREFOX DRIVER
       Given("I am on the Trainline website")
 
       When("I enter in an origin and destination station")
@@ -32,13 +33,13 @@ class NegativeTrainline extends Support{
       homepage.selectPastOutHour(driver)
 
       Then("An error message will be displayed alerting me that the out time is in the past")
-      homepage.outHourErrorMessageCorrect()
+      homepage.outHourErrorMessageCorrect(driver)
 
       When("I click the submit button")
       homepage.clickSubmit
 
       Then("The timetable will appear showing journeys from the present time")
-      timetablepage.checkTrainHour(homepage)
+      timetablepage.checkTrainHour(homepage, driver)
 
       info("////////////////END OF TEST/////////////////////////")
     }

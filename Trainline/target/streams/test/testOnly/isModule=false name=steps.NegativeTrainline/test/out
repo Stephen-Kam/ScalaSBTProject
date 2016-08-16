@@ -4,10 +4,23 @@
 [0m[[0minfo[0m] [0m[32m    Given I am on the Trainline website [0m[0m
 [0m[[0minfo[0m] [0m[32m    When I click on the submit button w/out entering any other details [0m[0m
 [0m[[0minfo[0m] [0m[32m    Then Two messages will appear telling myself to enter in an origin and destination station [0m[0m
-[0m[[0minfo[0m] [0m[32m  Scenario: When an out time is set in the past, an appropriate error message should be displayed[0m[0m
-[0m[[0minfo[0m] [0m[32m    Given I am on the Trainline website [0m[0m
-[0m[[0minfo[0m] [0m[32m    When I enter in an origin and destination station [0m[0m
-[0m[[0minfo[0m] [0m[32m    When I change the out time to the past [0m[0m
-[0m[[0minfo[0m] [0m[32m    Then An error message will be displayed alerting me that the out time is in the past [0m[0m
-[0m[[0minfo[0m] [0m[32m    When I click the submit button [0m[0m
-[0m[[0minfo[0m] [0m[32m    Then The timetable will appear showing journeys from the present time [0m[0m
+[0m[[0minfo[0m] [0m[32m    ////////////////END OF TEST///////////////////////// [0m[0m
+[0m[[0minfo[0m] [0m[31m  Scenario: When an out time is set in the past, an appropriate error message should be displayed *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.AssertionError: assertion failed: Present hour is not used[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.assert(Predef.scala:170)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at pagefactory.TimetablePage.checkTrainHour(TimetablePage.scala:35)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at steps.NegativeTrainline$$anonfun$1$$anonfun$apply$mcV$sp$2.apply$mcV$sp(NegativeTrainline.scala:41)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at steps.NegativeTrainline$$anonfun$1$$anonfun$apply$mcV$sp$2.apply(NegativeTrainline.scala:25)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at steps.NegativeTrainline$$anonfun$1$$anonfun$apply$mcV$sp$2.apply(NegativeTrainline.scala:25)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.FeatureSpecLike$$anon$1.apply(FeatureSpecLike.scala:236)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[31m    Given I am on the Trainline website [0m[0m
+[0m[[0minfo[0m] [0m[31m    When I enter in an origin and destination station [0m[0m
+[0m[[0minfo[0m] [0m[31m    When I change the out time to the past [0m[0m
+[0m[[0minfo[0m] [0m[31m    Then An error message will be displayed alerting me that the out time is in the past [0m[0m
+[0m[[0minfo[0m] [0m[31m    When I click the submit button [0m[0m
+[0m[[0minfo[0m] [0m[31m    Then The timetable will appear showing journeys from the present time [0m[0m

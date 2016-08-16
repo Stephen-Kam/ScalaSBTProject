@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for search#search_2.11;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies search#search_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.8 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@344e4f02[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@377830db[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.8 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.8] org.scala-lang#scala-library;2.11.8[0m
@@ -3744,7 +3744,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1223ms :: artifacts dl 43ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1205ms :: artifacts dl 57ms[0m
 [0m[[0mdebug[0m] [0m	report for search#search_2.11;1.0 compile produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for search#search_2.11;1.0 runtime produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for search#search_2.11;1.0 test produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search_2.11-test.xml[0m
@@ -3758,7 +3758,7 @@
 [0m[[0mdebug[0m] [0m	report for search#search_2.11;1.0 docs produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for search#search_2.11;1.0 pom produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for search#search_2.11;1.0 scala-tool produced in C:\CapGemini\Git\ScalaSBTProject\Trainline\target\resolution-cache\reports\search-search_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1223ms resolve - 43ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (1205ms resolve - 57ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
 [0m[[33mwarn[0m] [0mThere may be incompatibilities among your library dependencies.[0m
 [0m[[33mwarn[0m] [0mHere are some of the libraries that were evicted:[0m

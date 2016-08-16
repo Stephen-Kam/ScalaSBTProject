@@ -19,7 +19,7 @@ class Trainline extends Support {
       homepage.clickSubmit
 
       Then("The timetable page will be present")
-      timetablepage.isTimetableVisible()
+      timetablepage.isTimetableVisible
 
       info("////////////////END OF TEST/////////////////////////")
     }
@@ -37,7 +37,7 @@ class Trainline extends Support {
       homepage.clickSubmit
 
       Then("The timetable page will be present")
-      timetablepage.isTimetableVisible()
+      timetablepage.isTimetableVisible
 
       info("////////////////END OF TEST/////////////////////////")
 
@@ -50,7 +50,7 @@ class Trainline extends Support {
       homepage.clickOnStationFinder
 
       Then("The label will be correct")
-      homepage.isStationFinderLabelCorrect(driver)
+      homepage.isStationFinderLabelCorrect
 
       info("////////////////END OF TEST/////////////////////////")
     }
@@ -83,12 +83,13 @@ class Trainline extends Support {
       homepage.clickSubmit
 
       Then("the 'tomorrow' and 'next day' date displays")
-      homepage.correctOutDateOnTimetable()
+      homepage.correctOutDateOnTimetable
 
       info("////////////////END OF TEST/////////////////////////")
     }
 
     scenario("Select a random number of adults and check that the timetable page accurately reflects this", PositiveTest) {
+      //AT PRESENT THIS TEST DOES NOT WORK WHEN USING THE GECKO/FIREFOX DRIVER
       Given("I'm on The Train Line main page")
 
       When("I enter the 'from' and 'to' locations")
@@ -101,7 +102,7 @@ class Trainline extends Support {
       homepage.clickSubmit
 
       Then("The timetable page will show the correct number of adults")
-      homepage.isNoOfAdultsCorrect()
+      homepage.isNoOfAdultsCorrect(driver)
 
       info("////////////////END OF TEST/////////////////////////")
     }

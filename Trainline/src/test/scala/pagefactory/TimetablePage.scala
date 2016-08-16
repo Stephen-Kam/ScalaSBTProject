@@ -2,6 +2,7 @@ package pagefactory
 
 import org.openqa.selenium.{WebDriver, WebElement}
 import org.openqa.selenium.support.FindBy
+import org.openqa.selenium.support.ui.{ExpectedConditions, WebDriverWait}
 
 /**
   * Created by Stephen.Kam on 11/08/2016.
@@ -26,12 +27,15 @@ class TimetablePage {
   ///////////////START OF FUNCTIONS////////////////
   /////////////////////////////////////////////////
 
-  def isTimetableVisible(): Unit =
+  def isTimetableVisible(implicit driver: WebDriver): Unit = {
+    val wait: WebDriverWait = new WebDriverWait(driver, 10)
+    wait.until(ExpectedConditions.visibilityOf(timetableConfirm))
     assert(timetableConfirm.isDisplayed, "Timetable is not visible")
+  }
 
-  def checkTrainHour(homepage: Homepage): Unit = {
+  def checkTrainHour(homepage: Homepage, driver: WebDriver): Unit = {
     println(homepage.getCurrentOutHour) //debugging
-    isTimetableVisible()
+    isTimetableVisible(driver)
     assert(timetableHour.getText contains homepage.getCurrentOutHour, "Present hour is not used")
 
   }
