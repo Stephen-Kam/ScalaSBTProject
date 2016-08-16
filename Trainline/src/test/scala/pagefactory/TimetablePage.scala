@@ -3,13 +3,13 @@ package pagefactory
 import org.openqa.selenium.{WebDriver, WebElement}
 import org.openqa.selenium.support.FindBy
 import org.openqa.selenium.support.ui.{ExpectedConditions, WebDriverWait}
+import org.scalatest.selenium.WebBrowser._
 
 /**
   * Created by Stephen.Kam on 11/08/2016.
   */
 class TimetablePage {
 
-  //val homepage: Homepage = new Homepage
 
   /////////////////////////////////////////////////
   ///////////////START OF VARIABLES////////////////
@@ -30,13 +30,15 @@ class TimetablePage {
   def isTimetableVisible(implicit driver: WebDriver): Unit = {
     val wait: WebDriverWait = new WebDriverWait(driver, 10)
     wait.until(ExpectedConditions.visibilityOf(timetableConfirm))
-    assert(timetableConfirm.isDisplayed, "Timetable is not visible")
+    //pageloaded before proceed
+    //implicit waits
+    assert(timetableConfirm.isDisplayed, "Timetable is not visible" + captureTo("TimetableNotVisible"))
   }
 
-  def checkTrainHour(homepage: Homepage, driver: WebDriver): Unit = {
+  def checkTrainHour(implicit driver: WebDriver, homepage: Homepage): Unit = {
     println(homepage.getCurrentOutHour) //debugging
     isTimetableVisible(driver)
-    assert(timetableHour.getText contains homepage.getCurrentOutHour, "Present hour is not used")
+    assert(timetableHour.getText contains homepage.getCurrentOutHour, "Present hour is not used" + captureTo("PresentHourIsNotUsed"))
 
   }
 }

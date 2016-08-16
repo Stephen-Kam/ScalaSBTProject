@@ -1,6 +1,6 @@
 package utils
 
-import org.scalatest.selenium.WebBrowser
+import org.scalatest.selenium.{HtmlUnit, WebBrowser}
 import org.scalatest._
 
 

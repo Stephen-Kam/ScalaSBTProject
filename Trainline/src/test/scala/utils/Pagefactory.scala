@@ -14,5 +14,4 @@ trait Pagefactory extends BrowserInitialisation {
 
   val homepage = PageFactory.initElements(driver, classOf[Homepage])
   val timetablepage = PageFactory.initElements(driver, classOf[TimetablePage])
-
 }

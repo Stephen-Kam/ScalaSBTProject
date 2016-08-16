@@ -25,3 +25,5 @@ tes-only -- -w NegativeTest
 test-only -- -w NegativeTest
 test only -- -n NegativeTest
 test-only -- -n NegativeTest
+sbt
+test-only -- -n PositiveTest

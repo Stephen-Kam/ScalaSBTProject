@@ -7,6 +7,8 @@ import utils.{PositiveTest, Support}
   */
 class Trainline extends Support {
 
+
+
   feature("As a user I want to be able to use the trainline website") {
 
     scenario("Enter in two stations and press submit", PositiveTest) {
@@ -85,6 +87,7 @@ class Trainline extends Support {
       Then("the 'tomorrow' and 'next day' date displays")
       homepage.correctOutDateOnTimetable
 
+
       info("////////////////END OF TEST/////////////////////////")
     }
 
@@ -102,7 +105,8 @@ class Trainline extends Support {
       homepage.clickSubmit
 
       Then("The timetable page will show the correct number of adults")
-      homepage.isNoOfAdultsCorrect(driver)
+      homepage.isNoOfAdultsCorrect
+
 
       info("////////////////END OF TEST/////////////////////////")
     }

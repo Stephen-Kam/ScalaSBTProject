@@ -66,3 +66,19 @@ So to solve the problem, I've added a bunch of wait for an element to be visible
 Seemingly, tests which involves selecting an option from a list causes the test to fail. Maybe the driver is progressing too quickly that it can't even select an option.
 
 To switch between the different drivers, open up the BrowserInitialisation trait and comment out the chrome lines, and uncomment the gecko lines
+
+
+Screenshot Functionality
+========================
+
+Compared to Java, taking screenshots is very easy to do.
+
+The method for taking screenshots only when an assertion fails, as given by the Scalatest documentation didn't work for myself.
+
+withScreenshot{ //This wouldn't do anything, the assertion would still occur, but no screenshot
+assert(???)
+}
+
+You can find my method taking screenshots on failed tests in the page factories. Where I've set the screenshot destination is in the BrowserInitialisation trait 
+
+Ensure, org.scalatest.selenium.WebBrowser._ is present

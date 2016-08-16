@@ -39,7 +39,7 @@ class NegativeTrainline extends Support{
       homepage.clickSubmit
 
       Then("The timetable will appear showing journeys from the present time")
-      timetablepage.checkTrainHour(homepage, driver)
+      timetablepage.checkTrainHour(driver, homepage)
 
       info("////////////////END OF TEST/////////////////////////")
     }

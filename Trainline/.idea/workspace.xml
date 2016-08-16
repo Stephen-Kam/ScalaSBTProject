@@ -38,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Trainline.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Trainline.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Trainline.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+            <state relative-caret-position="392">
+              <caret line="93" column="6" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -51,8 +51,8 @@
       <file leaf-file-name="NegativeTrainline.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/steps/NegativeTrainline.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+            <state relative-caret-position="445">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#15#59#0" expanded="true" />
               </folding>
@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Homepage.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Homepage.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="135" column="36" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
+            <state relative-caret-position="3026">
+              <caret line="178" column="47" selection-start-line="178" selection-start-column="47" selection-end-line="178" selection-end-column="47" />
               <folding>
                 <element signature="e#21#54#0" expanded="true" />
               </folding>
@@ -75,8 +75,8 @@
       <file leaf-file-name="TimetablePage.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/TimetablePage.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="189">
+              <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
               <folding>
                 <element signature="e#21#71#0" expanded="true" />
               </folding>
@@ -87,10 +87,10 @@
       <file leaf-file-name="Support.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Support.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <element signature="e#15#55#0" expanded="true" />
+                <element signature="e#15#67#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,8 +99,8 @@
       <file leaf-file-name="Pagefactory.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Pagefactory.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#15#61#0" expanded="true" />
               </folding>
@@ -111,8 +111,8 @@
       <file leaf-file-name="BrowserInitialisation.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/utils/BrowserInitialisation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
               </folding>
@@ -136,8 +136,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Worksheet" />
-        <option value="Package Object" />
         <option value="Class" />
+        <option value="Package Object" />
       </list>
     </option>
   </component>
@@ -156,17 +156,18 @@
         <option value="$PROJECT_DIR$/src/test/scala/steps/exercise2.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/steps/Dog.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/steps/vzcsxcx.sc" />
-        <option value="$PROJECT_DIR$/src/test/scala/utils/Pagefactory.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/TestTags.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/Tags.scala" />
         <option value="$PROJECT_DIR$/src/test/java/steps/Program.java" />
+        <option value="$PROJECT_DIR$/src/test/scala/utils/Pagefactory.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/utils/ScreenshotOnTestFailure.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/Support.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/pagefactory/TimetablePage.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/steps/Trainline.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/steps/NegativeTrainline.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/pagefactory/TimetablePage.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/utils/BrowserInitialisation.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala" />
       </list>
     </option>
   </component>
@@ -260,40 +261,6 @@
               <option name="myItemId" value="scala" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tags.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Search" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Trainline" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -367,11 +334,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/drivers/commons-io-2.5/commons-io-2.5-javadoc.jar!/" />
   </component>
-  <component name="RunManager" selected="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ensure the station finder label is correct">
+  <component name="RunManager" selected="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this">
     <configuration default="false" name="Trainline" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="trainline" />
@@ -383,21 +351,6 @@
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="trainline" />
-      <setting name="path" value="steps.Trainline" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" />
-      <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
@@ -432,7 +385,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ensure the station finder label is correct" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration default="false" name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="trainline" />
       <setting name="path" value="steps.Trainline" />
@@ -441,7 +394,22 @@
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
       <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="Feature: As a user I want to be able to use the trainline website Scenario: Ensure the station finder label is correct" />
+      <setting name="testName" value="Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Enter in two stations and press submit" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="trainline" />
+      <setting name="path" value="steps.Trainline" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="Feature: As a user I want to be able to use the trainline website Scenario: Enter in two stations and press submit" />
       <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <envs />
@@ -745,18 +713,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="ScalaTest.Trainline" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ensure the station finder label is correct" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Enter in two stations and press submit" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ensure the station finder label is correct" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Trainline" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Enter in two stations and press submit" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.Trainline" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.NegativeTrainline" />
       </list>
     </recent_temporary>
   </component>
@@ -807,34 +775,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NegativeTrainline - 2016.08.16 at 10h 40m 08s.xml">
-      <configuration name="NegativeTrainline" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="NegativeTrainline - 2016.08.16 at 10h 46m 07s.xml">
-      <configuration name="NegativeTrainline" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Trainline - 2016.08.16 at 10h 45m 45s.xml">
+    <history-entry file="Trainline - 2016.08.16 at 15h 38m 30s.xml">
       <configuration name="Trainline" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Trainline - 2016.08.16 at 10h 47m 26s.xml">
+    <history-entry file="Trainline - 2016.08.16 at 15h 40m 54s.xml">
       <configuration name="Trainline" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Trainline - 2016.08.16 at 10h 48m 29s.xml">
-      <configuration name="Trainline" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Enter_in_two_stations_and_press_submit - 2016.08.16 at 15h 47m 51s.xml">
+      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Enter in two stations and press submit" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ensure_the_station_finder_label_is_correct - 2016.08.16 at 10h 50m 26s.xml">
-      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ensure the station finder label is correct" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Select_a_random_number_of_adults_and_check_that_the_timetable_page_accurately_reflects_this - 2016.08.16 at 10h 38m 27s.xml">
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Select_a_random_number_of_adults_and_check_that_the_timetable_page_accurately_reflects_this - 2016.08.16 at 15h 31m 50s.xml">
       <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Select_a_random_number_of_adults_and_check_that_the_timetable_page_accurately_reflects_this - 2016.08.16 at 10h 38m 45s.xml">
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Select_a_random_number_of_adults_and_check_that_the_timetable_page_accurately_reflects_this - 2016.08.16 at 15h 32m 46s.xml">
       <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ticket_search_with_'today'_and_'next_day' - 2016.08.16 at 10h 42m 15s.xml">
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Select_a_random_number_of_adults_and_check_that_the_timetable_page_accurately_reflects_this - 2016.08.16 at 15h 33m 22s.xml">
+      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Select_a_random_number_of_adults_and_check_that_the_timetable_page_accurately_reflects_this - 2016.08.16 at 15h 33m 42s.xml">
+      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Select_a_random_number_of_adults_and_check_that_the_timetable_page_accurately_reflects_this - 2016.08.16 at 16h 07m 15s.xml">
+      <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Select a random number of adults and check that the timetable page accurately reflects this" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ticket_search_with_'today'_and_'next_day' - 2016.08.16 at 15h 48m 50s.xml">
       <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ticket_search_with_'today'_and_'next_day' - 2016.08.16 at 10h 47m 44s.xml">
+    <history-entry file="Trainline_Feature__As_a_user_I_want_to_be_able_to_use_the_trainline_website_Scenario__Ticket_search_with_'today'_and_'next_day' - 2016.08.16 at 15h 49m 27s.xml">
       <configuration name="Trainline.Feature: As a user I want to be able to use the trainline website Scenario: Ticket search with 'today' and 'next day'" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
@@ -844,18 +812,19 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16685084" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16685084" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294271" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32707182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44972375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13385417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -866,7 +835,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -891,26 +859,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/BrowserInitialisation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="e#15#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Trainline.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
@@ -1146,10 +1094,27 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Dog.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/steps/exercise2.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/steps/vzcsxcx.sc" />
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="357">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/ScreenshotOnTestFailure.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,68 +1126,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/TimetablePage.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-          <folding>
-            <element signature="e#21#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/steps/NegativeTrainline.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
-          <folding>
-            <element signature="e#15#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        <state relative-caret-position="136">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Support.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#67#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Pagefactory.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#15#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/Support.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#15#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="135" column="36" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
-          <folding>
-            <element signature="e#21#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/utils/BrowserInitialisation.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#15#51#0" expanded="true" />
           </folding>
@@ -1231,9 +1166,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/steps/Trainline.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        <state relative-caret-position="392">
+          <caret line="93" column="6" selection-start-line="93" selection-start-column="6" selection-end-line="93" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/steps/NegativeTrainline.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/TimetablePage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <folding>
+            <element signature="e#21#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/pagefactory/Homepage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3026">
+          <caret line="178" column="47" selection-start-line="178" selection-start-column="47" selection-end-line="178" selection-end-column="47" />
+          <folding>
+            <element signature="e#21#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

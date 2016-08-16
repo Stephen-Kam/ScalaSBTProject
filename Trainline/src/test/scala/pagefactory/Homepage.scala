@@ -12,7 +12,7 @@ import org.scalatest.selenium.WebBrowser._
 /**
   * Created by Stephen.Kam on 03/08/2016.
   */
-class Homepage  {
+class Homepage {
 
   /////////////////////////////////////////////////
   ///////////////START OF VARIABLES////////////////
@@ -107,7 +107,7 @@ class Homepage  {
     val wait: WebDriverWait = new WebDriverWait(driver, 10)
     wait.until(ExpectedConditions.visibilityOf(stationFinderLabel))
     println(stationFinderLabel.getText) //debugging
-    assert(stationFinderLabel.getText contentEquals "Find a station closest to", "Station Finder label was incorrect")
+    assert(stationFinderLabel.getText contentEquals "Find a station closest to", "Station Finder label was incorrect" + captureTo("StationFinderLabelIncorrect"))
   }
   def enterStations(origin: String, destination: String): Unit = {
     originStation.sendKeys(origin)
@@ -145,7 +145,8 @@ class Homepage  {
 
     println("Tomorrows's date is: " + tomorrowDate) //debugging
     println("OutDate is: " + timetableOutdate.getText) //debugging
-    assert(timetableOutdate.getText contains tomorrowDate) //assert to ensure the result display the correct date
+    assert(timetableOutdate.getText contains tomorrowDate, "Timetable does not display correct outdate, Expected: " + tomorrowDate +
+      captureTo("IncorrectOutdateDisplayed")) //assert to ensure the result display the correct date
   }
 
   def iterateThroughDates(implicit driver: WebDriver): Unit = {
@@ -172,10 +173,11 @@ class Homepage  {
     wait.until(ExpectedConditions.visibilityOf(submitButton))
   }
 
-  def isNoOfAdultsCorrect(driver: WebDriver): Unit = {
+  def isNoOfAdultsCorrect(implicit driver: WebDriver): Unit = {
+
     val wait: WebDriverWait = new WebDriverWait(driver, 10)
     wait.until(ExpectedConditions.visibilityOf(timetableHeader))
-    assert(timetableHeader.getText contains randomnumber, "The number of adults did not match")
+    assert(timetableHeader.getText contains randomnumber, "The number of adults did not match, Expected: " + randomnumber + captureTo("IncorrectNoOfAdults"))
   }
 
   /////////////////////////////////////////////////
@@ -198,27 +200,25 @@ class Homepage  {
     singleSel("outHour").value = "0"
   }
 
-  def outHourErrorMessageCorrect(driver: WebDriver): Unit = {
+  def outHourErrorMessageCorrect(implicit driver: WebDriver): Unit = {
     val wait: WebDriverWait = new WebDriverWait(driver, 10)
     wait.until(ExpectedConditions.visibilityOf(outhourErrorMessage))
+
     assert(outhourErrorMessage.getText contentEquals "Your outward journey is in the past", "OutHour Error message incorrect. " +
-    "Expected: Your outward journey is in the past, Actual: " + outhourErrorMessage.getText)
+    "Expected: Your outward journey is in the past, Actual: " + outhourErrorMessage.getText + captureTo("OutHourErrorMessageIncorrect"))
   }
 
-  def errorMessagesCorrect(driver:  WebDriver): Unit = {
+  def errorMessagesCorrect(implicit driver:  WebDriver): Unit = {
     val wait: WebDriverWait = new WebDriverWait(driver, 10)
     val expectedOriginMessage = "Please enter the station you will be travelling from"
     val expectedDestinationMessage = "Please enter the station you will be travelling to"
     wait.until(ExpectedConditions.visibilityOf(originErrorMessage))
 
     assert(originErrorMessage.getText contentEquals expectedOriginMessage, "Origin Error message incorrect." +
-      "Expected: " + expectedOriginMessage + ", Actual: " + originErrorMessage.getText)
+      "Expected: " + expectedOriginMessage + ", Actual: " + originErrorMessage.getText + captureTo("OriginErrorMessageIncorrect"))
 
     assert(destinationErrorMessage.getText contentEquals expectedDestinationMessage, "Origin Error message incorrect." +
-      "Expected: " + expectedDestinationMessage + ", Actual: " + originErrorMessage.getText)
+      "Expected: " + expectedDestinationMessage + ", Actual: " + originErrorMessage.getText + captureTo("DestinationErrorMessageIncorrect"))
   }
-
-
-
 
 }

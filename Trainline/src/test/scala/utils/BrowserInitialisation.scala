@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.edge.EdgeDriver
 import org.openqa.selenium.firefox.FirefoxDriver
 import org.openqa.selenium.remote.DesiredCapabilities
+import org.scalatest.selenium.WebBrowser._
 
 import scala.util.Try
 
@@ -17,10 +18,13 @@ trait BrowserInitialisation {
 
   /*
   THIS PAGE INITIALISES THE DRIVER FOR ALL TESTS
+
+  UNCOMMENT/COMMENT OUT THE REQUIRED DRIVER
    */
 
   System.setProperty("webdriver.chrome.driver", "C:\\Users\\Stephen.Kam\\Desktop\\drivers\\chromedriver.exe")
   implicit val driver: WebDriver = new ChromeDriver()
+  setCaptureDir("C:\\CapGemini\\Git\\ScalaSBTProject\\Trainline\\src\\test\\scala\\screenshots")
 
 
   //System.setProperty("webdriver.edge.driver", "C:\\Users\\Stephen.Kam\\Desktop\\drivers\\MicrosoftWebDriver.exe")
